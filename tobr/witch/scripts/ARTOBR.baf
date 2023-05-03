@@ -1,0 +1,15 @@
+IF
+	Global("WitchExists","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WitchExists","GLOBAL",1)
+		CreateCreature("WGWITCH",[4659.3126],0)
+END
+
+IF
+	Global("SetWitchMarker","ARTOBR",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SetWitchMarker","ARTOBR",1)
+		AddMapNote([4659.3126],~Witch of the Wealdath~)
+END

@@ -1,0 +1,32 @@
+IF 
+	Global("YagaDeal","GLOBAL",0)
+	Global("ChangeSew4","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("ChangeSew4","AR5203",1)
+	ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	OR (2)
+		See("SHADFI01")
+ 		See("SHADFI02")
+ 	Global("SeenShade4","AR5013",0)
+THEN
+	RESPONSE #100
+	SetGlobal("SeenShade4","AR5013",1)
+	DisplayStringHead(Myself,~Shades!  They're attacking!~)
+END
+
+IF
+	GlobalGT("InsideSewers","GLOBAL",0)
+	!See([ENEMY])
+	Dead("YSGUAR06")
+THEN
+	RESPONSE #100
+	DisplayStringHead(Myself,~Move on out, men!  There's more shades that need killing!~)
+	ActionOverride("SEWYAG01",MoveToPoint([1860.1336]))
+	ActionOverride("SEWYAG02",MoveToPoint([1860.1336]))
+	ActionOverride("SEWYAG03",MoveToPoint([1860.1336]))
+	MoveToPoint([1860.1336])
+END

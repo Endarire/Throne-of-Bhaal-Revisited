@@ -1,0 +1,19 @@
+IF
+	Global("WGgdeal","GLOBAL",1)
+	Global("WGlieuExists","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGlieuExists","AR5203",1)
+	CreateCreature("YSGUAR06",[3327.961],6)
+	ChangeEnemyAlly("YSGUAR06",NEUTRAL)
+END
+
+IF
+	GlobalGT("InsideSewers","GLOBAL",0)
+	Dead("YSguar06")
+	Global("WGliedead","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGliedead","AR5203",1)
+	ActionOverride("YSguar06",DestroySelf())
+END

@@ -1,0 +1,24 @@
+IF 
+	Global("MirExists","AR5000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MirExists","AR5000",1)
+		CreateCreature("Mir",[2326.556],0)
+END
+
+IF
+	Global("EleniExists","AR5000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EleniExists","AR5000",1)
+		CreateCreature("Eleni",[2003.477],9)
+END
+
+IF
+	Global("PugarExists","AR5000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("PugarExists","AR5000",1)
+		CreateCreature("Pugar",[1866.504],1)
+END
+

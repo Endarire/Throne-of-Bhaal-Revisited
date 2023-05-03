@@ -1,0 +1,21 @@
+IF 
+	Global("MinersExist","GLOBAL",0)
+	Dead("WGdisur")
+THEN 
+	RESPONSE #100
+	SetGlobal("MinersExist","GLOBAL",1)
+	
+	CreateCreature("YSGUAR06",[2651.1314],0)	
+	CreateCreature("SEWYAG03",[2503.1178],6) // Leader
+	CreateCreature("SEWYAG01",[2479.1204],6) // Duergar archer
+	CreateCreature("SEWYAG02",[2571.1222],6) // Orc archer
+	CreateCreature("SEWYAG04",[2522.1290],6) // Mage
+
+	ChangeEnemyAlly("YSGUAR06",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG03",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG01",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG02",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG04",GOODBUTBLUE)
+	
+	CreateCreature("WGCUTGUY",[2751.1414],0)
+END

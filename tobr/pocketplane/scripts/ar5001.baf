@@ -1,0 +1,9 @@
+IF 
+	Global("WaitressJournal","AR5001",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WaitressJournal","AR5001",1)
+	EraseJournalEntry(~Dealing With Gromnir
+
+A tavern waitress whom I rescued from some bullying soldiers mentioned that the city sewers are likely an entry into the castle.  Gromnir's men have been patroling the area and would know more about it.~)
+END

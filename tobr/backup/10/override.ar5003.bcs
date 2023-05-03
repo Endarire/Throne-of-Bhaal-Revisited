@@ -1,0 +1,238 @@
+SC
+CR
+CO
+TR
+16510 0 0 0 0 "AR5003" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALB!LaranFlirt" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "GLOBALB!LaranToBExists" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALB!LaranToBExists" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 1171 941 0 0"B!LARAN" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16448 0 0 0 0 "SaradushSiegeTimer" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+50AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+50 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+RE
+RE
+50AC
+254OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 20 20 0 0"" "" AC
+AC
+26OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AM5004S1" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+50 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"AR5003BarShakeTimer" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5003BarShake1" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5003BarShake2" "" AC
+RE
+RE
+50AC
+254OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 20 20 0 0"" "" AC
+AC
+26OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AM5004S2" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+50 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"AR5003BarShakeTimer" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5003BarShake1" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5003BarShake2" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "GLOBALADAngelSuuToBSpawn" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "ADSawara" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "ADGinPac" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALADAngelSuuBought" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALADAngelSuuCharmed" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+8 1206 925 0 0"ADSuu25" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALADAngelSuuToBSpawn" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "J#Kelsey"OB
+TR
+TR
+16399 0 0 0 0 "AR5003FWMirenaExists" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5003FWMirenaExists" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 904 1030 0 0"FWMirena" "" AC
+RE
+RS
+CR
+SC

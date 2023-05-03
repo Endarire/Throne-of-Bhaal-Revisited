@@ -1,0 +1,19 @@
+IF 
+	Global("YagaDeal","GLOBAL",0)
+	Global("ChangeGuard6","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("ChangeGuard6","AR5203",1)
+	ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	GlobalGT("InsideSewers","GLOBAL",0)
+	See([ENEMY])
+THEN
+	RESPONSE #100
+	MoveToObject(LastSeenBy())
+	Kill(Myself)
+END
+	
+	

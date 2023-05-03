@@ -1,0 +1,18 @@
+IF
+	Global("SuelleBegin","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SuelleBegin","GLOBAL",1)
+		MoveToObject([PC])
+		Dialogue([PC])
+END
+
+IF
+	Global("SuelleBegin","GLOBAL", 2)
+THEN 
+	RESPONSE #100
+		SetGlobal("SuelleBegin","GLOBAL",3)
+		EscapeArea()
+				
+END
+

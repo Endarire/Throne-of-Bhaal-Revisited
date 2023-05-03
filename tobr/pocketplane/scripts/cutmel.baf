@@ -1,0 +1,94 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		MoveViewPoint([2167.1153],INSTANT)
+		MoveToPoint([2167.1153])
+		ActionOverride("CUTSPY",DestroySelf())
+		EraseJournalEntry(~Destiny's Next Stop
+According to Sarevok, the place I need to go next is the Tethyrian city of Saradush.  I may not have much of a choice, either... this pocket plane isn't a simple portal that can take me anywhere.  It can only take me places I have been, and only those that are pertinent to my destiny. ~)
+		Wait(1)
+		ActionOverride("mel01",StartDialogueNoSet(Player1))
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		Wait(1)
+		MoveToPoint([2079.1143])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		Wait(1)
+		MoveToPoint([2114.1185])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		Wait(1)
+		MoveToPoint([2183.1210])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		Wait(1)
+		MoveToPoint([2132.1244])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+		Wait(1)
+		MoveToPoint([2068.1214])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("sarman01")
+		DialogInterrupt(FALSE)
+		MoveToObject("Waypoint1")
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("sarfem01")
+		DialogInterrupt(FALSE)
+		MoveToObject("Waypoint1")
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("gromg01")
+		Enemy()
+		MoveToObject("Waypoint2")
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("gromg02")
+		Enemy()
+		MoveToObject("Waypoint3")
+END

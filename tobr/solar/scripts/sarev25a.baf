@@ -1,0 +1,11 @@
+IF
+	Global("SarevokTold","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokTold","GLOBAL",3)
+		MoveToObject([PC])
+		Dialogue([PC])
+END
+
+
+

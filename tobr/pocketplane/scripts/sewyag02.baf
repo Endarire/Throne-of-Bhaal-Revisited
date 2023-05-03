@@ -1,0 +1,25 @@
+IF 
+	Global("YagaDeal","GLOBAL",0)
+	Global("ChangeSew2","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("ChangeSew2","AR5203",1)
+	ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	OR (2)
+		See("SHADFI01")
+ 		See("SHADFI02")
+ 		Global("SeenShade2","AR5013",0)
+THEN
+	RESPONSE #50
+	SetGlobal("SeenShade2","AR5013",1)
+	DisplayStringHead(Myself,~Shades!  They're attacking!~)
+	RESPONSE #50
+	Continue()
+END
+
+
+
+	

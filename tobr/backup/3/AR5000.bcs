@@ -1,0 +1,814 @@
+SC
+CR
+CO
+TR
+16399 1 1 0 0 "AR5000D0SpawnCold" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5000D0SpawnCold" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 910 2343 0 0"sarmist" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 824 2310 0 0"sarcult" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 962 2276 0 0"sarcult2" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 875 2273 0 0"sarculto" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16596 0 0 0 0 "AR5000" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16596 0 0 0 0 "AR5000" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "E3FADE"OB
+TR
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "E3FADE"OB
+TR
+TR
+16439 -2146426897 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16439 -2146426897 1 0 0 "" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALE3TAVERNOUTBURSTTALK" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 "E3FADE"OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+54 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALAR5000Flythrough" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+202OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 1 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALAR5000Flythrough" "" AC
+AC
+167OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"SARADUSH" "" AC
+AC
+203OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 20 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALKiserJob" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sarmag01" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5000ErrardMapnote" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5000ErrardMapnote" "" AC
+AC
+308OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+68997 2385 700 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 0 0 0 "sarmag01" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "AR5000ErrardMapnote" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"AR5000ErrardMapnote" "" AC
+AC
+328OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+68997 2385 700 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "AR5000EnteredArea" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+65OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+228OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 3061 635 0 0"SARFAKIE" "" AC
+AC
+228OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 2482 397 0 0"SARFAKI2" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2561 1474 0 0"SARGRD12" "" AC
+AC
+227OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "rway5"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 0 0 0 0"SARGRD13" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 1744 838 0 0"SARGRD14" "" AC
+AC
+227OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "rway2"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 0 0 0 0"SARGRD15" "" AC
+AC
+227OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "rway1"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 0 0 0 0"SARGRD16" "" AC
+AC
+263OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+73858 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5000EnteredArea" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 0 0 0 0 "GLOBALInformerPlot" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5000UnlockKiserDoor" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5008"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5000UnlockKiserDoor" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALEnteredAR5005" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALEnteredAR5005" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5005a"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5005b"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+143OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5005a"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+143OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5005b"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALEnteredAR5001" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALEnteredAR5001" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5001"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5002"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+143OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5001"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+143OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5002"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 0 0 0 0 "GLOBALEnteredArea5013" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5000OpenSewers" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Grate01"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Grate02"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Grate03"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5000OpenSewers" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALMelissanJob" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5000StartSiege" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 2449 1324 0 0"ORPHAN1" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+8 2409 1482 0 0"ORPHAN2" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+5 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5000StartSiege" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALUnlockAR5006" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR5006"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALUnlockAR5006" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16423 3 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sargrd12" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsargrd12" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2561 1474 0 0"sargrd12" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16423 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sargrd13" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsargrd13" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2561 1474 0 0"sargrd13" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16423 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sargrd14" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsargrd14" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 1744 838 0 0"sargrd14" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16423 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sargrd15" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsargrd15" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 1744 838 0 0"sargrd15" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16423 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sargrd16" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsargrd16" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 1744 838 0 0"sargrd16" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 0 0 0 "sarfakie" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+63OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsarfakie" "" AC
+AC
+228OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 3061 635 0 0"SARFAKIE" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 0 0 0 "sarfaki2" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+63OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALSPRITE_IS_DEADsarfaki2" "" AC
+AC
+228OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 2482 397 0 0"SARFAKI2" "" AC
+RE
+RS
+CR
+SC

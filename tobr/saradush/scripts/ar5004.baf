@@ -1,0 +1,10 @@
+IF 
+	Global("BhaalspawnExist","AR5004",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("BhaalspawnExist","AR5004",1)
+	CreateCreature("Adellie",[456.378],0)
+	CreateCreature("Bedo",[449.329],0)
+	CreateCreature("Burach",[552.467],6)
+	CreateCreature("Beth",[483.752],0)
+END

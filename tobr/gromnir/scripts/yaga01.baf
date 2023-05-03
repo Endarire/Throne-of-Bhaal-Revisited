@@ -1,0 +1,9 @@
+IF
+	See(Player1)
+	GlobalGT("YagaShuraHeart","GLOBAL",0)
+	Global("WGhelps","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGhelps","GLOBAL",2)
+END
+

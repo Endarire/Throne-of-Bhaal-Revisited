@@ -1,0 +1,6 @@
+IF 
+	Global("SeenNF","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("SeenNF","GLOBAL",1)
+END

@@ -1,0 +1,29 @@
+IF
+	Global("MelissanYagaKillJob","GLOBAL",1)
+	Global("WGglive","GLOBAL",2) 
+THEN
+	RESPONSE #100
+		SetGlobal("WGglive","GLOBAL",3)
+		DisplayStringHead(Myself,~What?! NO!~)
+		MoveToObject("MEL01")
+		ActionOverride("MEL01",DestroySelf())
+		Wait(1)
+		Dialogue([PC])
+END
+
+IF 
+	See("yaga01")
+	See(Player1)
+	Global("WGhelps","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("WGhelps","GLOBAL",4)
+		ActionOverride("yaga01", StartDialogueNoSet(Player1))
+END
+
+IF
+	See("yaga01")
+THEN 
+	RESPONSE #100
+	NoAction()
+END

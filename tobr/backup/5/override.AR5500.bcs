@@ -1,0 +1,3646 @@
+SC
+CR
+CO
+TR
+16399 4 1 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALBalthazarFights" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "Abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "Sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+4 0 0 0 0"GLOBALDMWWMercStatus" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 5 1 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+5 0 0 0 0"GLOBALDMWWMercStatus" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 2 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 3 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 4 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALEnclave" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 2 0 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 1 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 4 1 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALEnclave" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 1 0 0 "GLOBALDMWWOpenedMonastery" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALBalthazarFights" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWOpenedMonastery" "" AC
+AC
+143OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Door08"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 1 0 0 "GLOBALSaemonDisguise" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "AR5500DMWWReinforceGate" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 3 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16429 50 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "ammgrd01"OB
+TR
+TR
+16429 50 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "ammgrd04"OB
+TR
+TR
+16448 0 0 0 0 "DMWWAmkGate" "AR5500" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"AR5500DMWWReinforceGate" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 787 1445 0 0"cutammag" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 914 1401 0 0"cutammag" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 837 1454 0 0"cutamfig" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 875 1448 0 0"cutamfig" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16587 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16521 4 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALDMWWSmugglerStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 0 0 0 "GLOBALDMWWSmugglerStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 5 0 0 0 "GLOBALDMWWSmugglerStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 7 0 0 0 "GLOBALDMWWSmugglerStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWSmugglerStatus" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "GLOBALSaemonLeave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16450 0 0 0 0 "PLOT17A" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALSaemonLeave" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 1 0 0 "GLOBALDMWWFaheedMapNote" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 4 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALZakeeFaheed" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALSaemonFaheed" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALDMWWCarrasFaheed" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALDMWWRumorFaheed" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWFaheedMapNote" "" AC
+AC
+308OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+145679 3444 126 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALHadBhaal25Dream3" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16488 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16489 21 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 1 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+66OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALDMWWSpawnAttackPeasants" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALDMWWBalthDeadPhase1" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWSpawnAttackPeasants" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#ampp1" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#ampp2" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#ampp3" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALDMWWSpawnAttackPeasants" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALDMWWBalthDeadPhase1" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALHadBhaal25Dream3" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWSpawnAttackPeasants" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 941 1518 0 0"dw#ampp1" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 885 1579 0 0"dw#ampp2" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 816 1584 0 0"dw#ampp3" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWAttackInitialise" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16449 0 1 0 0 "DMWWAttackTimer" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWVillageAttacked" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 30 1 0 0 "GLOBALDW#Attacker1Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 5 0 0 0 "MYAREAEXTRACOUNT6" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+150AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vider" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vidr1" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vidr3" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 12 1 0 0 "GLOBALDW#Attacker2Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 2 0 0 0 "MYAREAEXTRACOUNT7" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vidr2" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vidr4" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#viill" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vibeh" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 25 1 0 0 "GLOBALDW#Attacker1Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 5 0 0 0 "MYAREAEXTRACOUNT6" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vikuo" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#viliz" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#visal" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#viele" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker1Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT6" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 16 1 0 0 "GLOBALDW#Attacker2Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 2 0 0 0 "MYAREAEXTRACOUNT7" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vibon" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#visek" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#viegl" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RE
+100AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vigol" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#Attacker2Cap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT7" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALDW#ReinforceInitialise" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDW#ReinforceInitialise" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 0 0 0 0"GLOBALDW#VillageReinforce" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AR5500DW#ReinforceNumber" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16449 0 1 0 0 "DW#VillageReinforce" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALDW#ReinforceInitialise" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 3 1 0 0 "AR5500DW#ReinforceNumber" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 0 0 0 0"GLOBALDW#VillageReinforce" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500DW#ReinforceNumber" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc07" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc07" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+RE
+RE
+100AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 0 0 0 0"GLOBALDW#VillageReinforce" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500DW#ReinforceNumber" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc07" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammgrd02" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 30 0 0 0 "GLOBALDW#Attacker1Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 12 0 0 0 "GLOBALDW#Attacker2Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALDMWWVillageAttacked" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vime1" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 25 0 0 0 "GLOBALDW#Attacker1Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 16 0 0 0 "GLOBALDW#Attacker2Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALDMWWVillageAttacked" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dw#vime1" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+AC
+233OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"ammerc08" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 25 0 0 0 "GLOBALDW#Attacker1Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 16 0 0 0 "GLOBALDW#Attacker2Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALDMWWVillageAttacked" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALDMWWVillageAttacked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 30 0 0 0 "GLOBALDW#Attacker1Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 12 0 0 0 "GLOBALDW#Attacker2Cap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALDMWWVillageAttacked" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"GLOBALEnclave" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 2 1 0 0 "GlobalEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16488 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16489 21 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 7 0 0 0 "MYAREAEXTRACOUNT" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMBOY01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMBOY01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMBOY01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMFEM01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMFEM01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMFEM01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMGIRL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMGIRL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMGIRL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMMAN01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMMAN01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMMAN01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMMAN02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMMAN02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMMAN02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMSMUG02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMSMUG02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMSMUG02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 0 0 0 "abazigal" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "sendai" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "balth" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALHadBhaal25Dream3" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "GLOBALAMReturnOfElminster" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "GLOBALDMWWGroveRevealed" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALDMWWBalthHasBook" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+123OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+121OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+227OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AMELM01" "SPFLESHS" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALAMReturnOfElminster" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALDMWWGroveRevealed" "" AC
+AC
+63OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"" "" AC
+AC
+122OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "YOSHIMO"OB
+TR
+TR
+16399 0 0 0 0 "GLOBALYYoshBroExists" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 1 0 0 "GLOBALYoshimoRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 1 0 0 "GLOBALYoshimoRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALYYoshBroExists" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+13 2387 1508 0 0"YYoshBro" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 1 0 0 "0xWIZDG" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16397 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "0xWI2DG"OB
+TR
+TR
+16399 0 0 0 0 "AR5500DGToB" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 30 0 0 0 "GLOBALDGColoursDream" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500DGToB" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 1867 1332 0 0"0xWI2DG" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+54 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 4 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 0 0 0 0 "AR5500AmkMercCap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 0 0 0 0 "AR5500AmkMonkCap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5500ResetAmkMonkCap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500ResetAmkMonkCap" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AR5500AmkMonkCap" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AR5500AmkMercCap" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "AR5500EnteredArea" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500EnteredArea" "" AC
+AC
+65OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+30 0 0 0 0"AR5500AMmayorPlotTimer" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+9 0 0 0 0"GLOBALChapter" "" AC
+AC
+173OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+73258 0 0 4 0"" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "TRAN5509"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "INFO5509"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"" "" AC
+AC
+199OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"CHPTXT9" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALTalkedToMarlowe" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5500AddMarloweNote" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500AddMarloweNote" "" AC
+AC
+308OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+73525 3657 332 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 2 0 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5500SpawnGateGuard" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+14 973 1500 0 0"AMMGRD04" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500SpawnGateGuard" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16587 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16448 0 0 0 0 "AMmayorPlotTimer" "AR5500" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5500SpawnAMmayor" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 1 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500SpawnAMmayor" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 2251 1261 0 0"AMMAYOR" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 2340 1256 0 0"AMASANA" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+8 2334 1300 0 0"AMMERC03" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+8 2379 1266 0 0"AMMERC04" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "AR5500SpawnMonk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 1 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500SpawnMonk" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 3127 2319 0 0"AMMONK01" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+10 2974 2417 0 0"AMCLER01" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "MYAREASAEMONSPAWNED" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREASAEMONSPAWNED" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 2695 1925 0 0"AMMERC01" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 2610 1963 0 0"AMMERC02" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 2600 1916 0 0"AMSAEMON" "" AC
+AC
+229OB
+0 0 0 0 0 0 0 0 0 0 0 0 "AMMERC01"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "AMSAEMON"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+229OB
+0 0 0 0 0 0 0 0 0 0 0 0 "AMMERC02"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "AMSAEMON"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+229OB
+0 0 0 0 0 0 0 0 0 0 0 0 "AMSAEMON"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "AMMERC01"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALMONKSPAWNEDSMUGGLERPLOT" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"GLOBALMONKSPAWNEDSMUGGLERPLOT" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16502 1 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR08"OB
+TR
+TR
+16502 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR01"OB
+TR
+TR
+16399 0 0 0 0 "AR5500OpenBothDoors" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500OpenBothDoors" "" AC
+AC
+196OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR01"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+143OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "DOOR01"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 0 0 0 "AMMGRD05" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALMarloweJob" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5500OpenUpCavern" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500OpenUpCavern" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "INFO5509"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "TRAN5509"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 2 0 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5500OpenUpCavern" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500OpenUpCavern" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "INFO5509"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "TRAN5509"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16488 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16489 21 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 7 0 0 0 "MYAREAEXTRACOUNT" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMBOY01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMBOY01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMBOY01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMFEM01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMFEM01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMFEM01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMFEM02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMGIRL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMGIRL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMGIRL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMMAN01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMMAN01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMMAN01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMMAN02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 3218 1438 0 0"AMMAN02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2618 2484 0 0"AMMAN02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMSMUG02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2820 730 0 0"AMSMUG02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 2721 1404 0 0"AMSMUG02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16488 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16489 21 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 4 0 0 0 "MYAREAEXTRACOUNT2" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1193 2367 0 0"AMMERC07" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1258 2497 0 0"AMMERC07" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 861 1453 0 0"AMMERC07" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 2721 1404 0 0"AMMERC07" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1193 2367 0 0"AMMERC08" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1258 2497 0 0"AMMERC08" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 861 1453 0 0"AMMERC08" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 2721 1404 0 0"AMMERC08" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16488 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16489 21 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 1 0 0 0 "MYAREAEXTRACOUNT3" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1193 2367 0 0"AMDUEL01" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT3" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 1 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16488 6 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16489 21 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 1 0 0 0 "MYAREAEXTRACOUNT4" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1258 2497 0 0"AMDUEL02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT4" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 0 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 4 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 25 1 0 0 "AR5500AmkMercCap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 5 0 0 0 "MYAREAEXTRACOUNT2" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1193 2367 0 0"AMMERC07" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500AmkMercCap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1258 2497 0 0"AMMERC07" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500AmkMercCap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1193 2367 0 0"AMMERC08" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500AmkMercCap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+12 1258 2497 0 0"AMMERC08" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500AmkMercCap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT2" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 1 0 0 0 "GLOBALEnclave" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 4 0 0 0 "GLOBALDMWWMercStatus" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16436 18 1 0 0 "AR5500AmkMonkCap" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 2 0 0 0 "MYAREAEXTRACOUNT5" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16427 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16544 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 861 1453 0 0"AMMGRD02" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500AmkMonkCap" "" AC
+AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"MYAREAEXTRACOUNT5" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "AR5500J#HalfOrcSpawn" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 0 0 0 "GLOBALFWMETKELVIM" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5500J#HalfOrcSpawn" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+14 3148 1602 0 0"FWRlaash" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 1 0 0 0 "GLOBALFWKelseyLeftSaradush" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16448 0 0 0 0 "FWKelseyAmkethTimer" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16582 0 0 0 0 "FWKelseySaraMoved" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16510 0 0 0 0 "AR5500" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"GLOBALFWKelseySaraMoved" "" AC
+AC
+197OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "J#Kelsey"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 2744 1453 0 0"AR5500" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16450 0 0 0 0 "d0qprayi" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "Rayic" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16437 9 0 0 0 "GLOBALD0Rayic" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+9 0 0 0 0"GLOBALD0Rayic" "" AC
+AC
+232OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"dcowl1" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+SC

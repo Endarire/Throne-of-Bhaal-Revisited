@@ -1,0 +1,32 @@
+IF
+	Global("YagaShuraHeart","GLOBAL",1)
+	Exists("WGneutra")
+THEN
+	RESPONSE #100
+	ActionOverride("WGneutra",DestroySelf()) 
+	SetGlobal("SpawnStart","AR5203",1)
+END
+
+
+IF
+	Global("WGsoldexist","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGsoldexist","AR5203",1)
+	CreateCreature("WGfire02",[1808.1016],6)
+	CreateCreature("WGfire02",[1324.1021],8)
+	CreateCreature("WGfire01",[1179.1000],0)
+	CreateCreature("WGfire02",[841.967],8)
+	CreateCreature("WGfire02",[195.953],10)
+	
+	CreateCreature("YSguar01",[368.1367],0)
+	ChangeEnemyAlly("YSguar01",NEUTRAL)
+	CreateCreature("YSguar02",[901.1429],0)
+	ChangeEnemyAlly("YSguar02",NEUTRAL)
+	CreateCreature("YSguar03",[1920.1785],0)
+	ChangeEnemyAlly("YSguar03",NEUTRAL)
+	CreateCreature("YSguar04",[1955.1904],0)
+	ChangeEnemyAlly("YSguar04",NEUTRAL)
+	CreateCreature("YSguar01",[701.1699],0)
+	ChangeEnemyAlly("YSguar01",NEUTRAL)
+END

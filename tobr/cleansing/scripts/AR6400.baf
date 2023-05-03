@@ -1,0 +1,8 @@
+IF
+	Global("WGCarinDie","AR6400",1)
+	HasItem("MINHP1","WGcleric")
+THEN
+	RESPONSE #100
+	DestroyItem("MINHP1")
+	Continue()
+END

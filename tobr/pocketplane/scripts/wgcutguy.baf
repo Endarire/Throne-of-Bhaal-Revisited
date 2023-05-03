@@ -1,0 +1,12 @@
+IF 
+	GlobalGT("InsideSewers","GLOBAL",4)
+THEN
+	RESPONSE #100
+	SetGlobal("InsideSewers","GLOBAL",7)
+	ScreenShake([5.5],5)
+	DisplayStringHead("WGcutguy",~With a loud sucking sound the tunnel behind you collapses.  No one will be using this passage again.~)
+	Wait(1)
+	DestroySelf()
+END
+	
+	

@@ -1,0 +1,24 @@
+IF
+	!See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		MoveToObject([PC])
+END
+
+IF
+	See([PC])
+	Global("SuelleBegin","AR4000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SuelleBegin","AR4000",1)
+		Dialogue([PC])
+END
+
+IF
+	Global("SuelleBegin","AR4000", 2)
+THEN 
+	RESPONSE #100
+		SetGlobal("SuelleBegin","AR4000",3)
+		EscapeArea()
+END

@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<TITLE> Throne of Bhaal Revisited Readme </TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+
+<H1> ~Throne of Bhaal Revisited~ <H1>
+<H2> version beta 4 <H2>
+
+</CENTER>
+
+<P>
+
+Unsatisfied with Throne of Bhaal?  Tired of being forced down a linear story with empty characters?  This mod aims to fix that.
+<br><br>
+FORUM:  <a href=http://forums.chosenofmystra.net/index.php?board=101.0>Chosen of Mystra board</a><br>
+WEBSITE: <a href=http://sites.google.com/site/bgiimods/>Main Website</a>
+<br> <br>
+DISCLAIMERS:
+
+This is a work in progress.  Not everything is in place, and even though I have tried to test it, some things may be broken.  Drop me a line at 
+wildgirlmods@gmail.com if you have any problems.
+
+<br> <br>
+WARNINGS:
+
+<UL>
+<LI>This readme is full of spoilers, both for this mod and vanilla ToB.  Don't read the readme in full if you want to keep things a surprise. </LI>
+
+<LI>Start a new game (or use a final save from SoA).  Not only will you get to see all the new content, but your game won't be broken. </LI>
+
+<LI>Many new dialogue responses have stat checks to be successful.  They aren't marked, so think before you speak.</LI>
+
+<LI>If you want to see full romance content, vanilla or mod, be sure to take Yaga Shura down sooner rather than later.</LI>
+
+<LI>Beta versions may or may not play nice with each other.  Just to be sure, uninstall all previous versions before installing this one.</LI>
+
+</UL>
+
+OTHER MODS:
+
+There are several mods that add some really good content to ToB.  These are just a few that I suggest adding in.
+
+<UL>
+<LI> <a href=http://www.gibberlings3.net/wheels/>Wheels of Prophecy</a>:  Though I can rarely manage to get its name right, this is a really great mod.  It allows you to kill some of 
+   the Five in any order, and its Grove of the Ancients scene is much better than mine. </LI>
+
+<LI> <a href=http://www.pocketplane.net/mambo/index.php?option=com_content&task=blogcategory&id=128&Itemid=100>SimDing0's Improved Oasis</a>:  He gives you a chance to talk your way out of a fight in the oasis.  I love it when you can
+   talk your way out of a fight.</LI>
+</UL>
+
+CONTENT:
+
+This mod comes in four major sections:  characters, linearity, places, and quests.  Each section is independent, as is each component inside a section.  
+<br>
+This is what I have so far:
+<br> <br>
+Characters:
+<UL>
+<LI> Gromnir:  You are now given half a chance to reason with him,
+           but it may be difficult to talk him down entirely. <br>
+	   (Compatible with Ascension's "Tougher Gromnir.") </LI>
+	   
+<LI> Melissan:  Now she has a magic amulet that protects her from 
+	   detect alignment spells. </LI>
+
+<LI> Solar & Sarevok:  Now the Solar opens the first challenge for
+	   you.  Why Sarevok should have control of *your* pocket plane I
+	   don't know. </LI>
+<LI> Yaga Shura:  If he sees an advantage to it, Yaga Shura will ask you to
+	   kill Gromnir and, when that doesn't break the siege, Captain Samand. <br>
+	   (Compatible with Ascension's "Tougher Yaga Shura.") </LI>
+
+</UL>
+
+<br> 
+Linearity:
+<UL>
+ <LI> Grove of the Ancients:  Instead of being randomly teleported,
+           you are led by Ellesime and may have to use your own feet for
+           a change. <br>
+	   (Compatible with the Longer Road, Wheels of Prophecy, and
+	    Ascension's "Tougher Illasera.") </LI>
+
+<LI> Pocket Plane:  With this component it can only take you places you've
+	   already been.  You first end up in the Tethyr woods outside
+           Suldanessalar.  With no more transporting to the middle of Saradush,  
+	   you'll have to find another way in. Or you can go somewhere else, 
+           provided you can get directions there. <br>
+	   (Not compatible with Longer Road.  Yet.)</LI>
+
+<LI> Fight the Five in Any Order:  Right now, this just adjusts the Bioware romances
+	   so that if you put off saving Saradush they'll keep going. </LI>
+
+</UL>
+
+<br> 
+Places:
+<UL>
+<LI> Oasis:  If Saradush hasn't yet fallen you see a more peaceful side to
+	   the oasis.  <br>
+	   (Compatible with Tatics and SimDing0's Questpack)  </LI>
+
+<LI> Saradush:  Now contains a variety of Bhaalspawn.  </LI>
+
+<LI> Saradush Sewers:  Changes around the creatures in the sewers from Yaga Shura's minions to
+	   more normal underground baddies.  You'll also get a deeper understanding of why there are so
+           many shades around. </LI>
+
+</UL>
+<br> <br>
+Quests:
+<UL>	
+<LI> Cleansing the Temple:  A priestess of Kelemvor is looking to cleanse the
+	   ruined Temple of Bhaal </LI>
+
+<LI> The Witch of the Wealdath:  A capricious witch now lives in the Tethyr woods. </LI>
+</UL>
+<br> <br>
+INSTALLATION:  
+	Just like most old school WeiDU stuff: Copy the executable and the folder to your ToB directory.  Double click on the executable.  A prettier installation method is in the works.
+<br> <br>
+SPECIAL THANKS:<br>
+	SoM_Solaufein and all the folks at Chosen of Mystra <br>
+	SConrad for his template for adding an area<br>
+	The whole UB crew -- I ripped off, I mean, learned a lot from them<br>
+	The whole Tweakpack crew -- they are well versed in the art of WeiDU ninjary <br>
+	Creepin for his tutorial on adding a trap to an area<br>
+	Shaitan and Ardanis for bug squashing the Grove of the Ancients component<br>
+	Berelinde for helping with romance/friendship mod compatibility
+<br><br>
+TOOLS USED:<br>
+ 	<a href=http://www.idi.ntnu.no/~joh/ni/#>Near Infinity</a><br>
+	<a href=http://weidu.org/main.html>WeiDU</a><br>
+	<a href=http://www.crimsoneditor.com/>Crimson Editor</a><br>
+	<a href=http://www.gibberlings3.net/tools/weidu.php>G3's highlighters</a><br>
+	<a href=http://www.winehq.org/>Wine</a>
+
+
+<br> <br>
+HELPFUL RESOURCES: <br>
+<a href=http://iesdp.gibberlings3.net/main.htm>IESDP Index</a> <br>
+<a href=http://www.weidu.org/~thebigg/README-WeiDU.html> WeiDU Documentation</a> <br>
+<a href=http://forgottenrealms.wikia.com/wiki/Main_Page> Forgotten Realms Wiki</a>
+
+<br><br>
+VERSION HISTORY:<br>
+beta 4 -- broke Saradush Sewers into a seperate component <br>
+&nbsp; &nbsp; -- began work on Any Order component <br>
+&nbsp; &nbsp; -- polished several components:  Yaga Shura, Grove of the Ancients, Saradush, Saradush Sewers, all the Quests <br>
+<br>
+beta 3 -- added Gromnir, Melissan, Yaga Shura, Oasis, Cleansing the Temple and The Witch of the Wealdath components<br>
+ &nbsp; &nbsp;      -- Made the Pocket Plane component work in the North Forest and Oasis <br>
+   &nbsp; &nbsp;     -- Fixed Pocket Plane bug with Melissan cutscene in Saradush.  <br>
+<br>
+
+beta 2 -- added the components Pocket Plane, Saradush, and Solar & Sarevok<br>
+   &nbsp; &nbsp;     -- made Grove of the Ancients compatible with Wheels of Prophecy and Ascension<br>
+<br>
+beta 1 -- Grove of the Ancients
+
+</P>
+</BODY>
+</HTML>

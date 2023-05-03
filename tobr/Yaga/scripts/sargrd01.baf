@@ -1,0 +1,9 @@
+IF
+	Dead("SARCPT01")
+	See(Player1)
+THEN	
+	RESPONSE #100
+	Enemy()
+	Attack(NearestEnemyOf())
+END
+

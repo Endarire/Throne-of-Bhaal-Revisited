@@ -1,0 +1,33 @@
+IF
+	Global("PugarRun","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveToPoint([2835.1074])
+		Wait(1)
+		SetGlobal("PugarRun","GLOBAL",1)
+END
+
+IF
+	Global("PugarRun","GLOBAL",1)
+THEN
+	RESPONSE #100
+		MoveToPoint([1749.964])
+		Wait(1)
+		SetGlobal("PugarRun","GLOBAL",2)
+END
+
+IF
+	Global("PugarRun","GLOBAL",2)
+THEN 
+	RESPONSE #100
+		MoveToPoint([1866.504])
+		Wait(1)
+		SetGlobal("PugarRun","GLOBAL",0)
+END
+
+IF
+	Global("PugarRun","GLOBAL",0)
+THEN
+	RESPONSE #5
+		DisplayStringHead(Myself,~Run, Pugar, run!~)
+END

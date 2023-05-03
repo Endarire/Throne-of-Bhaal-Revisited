@@ -1,0 +1,15 @@
+IF
+	!See([GOODCUTOFF])
+	Global("GaveShout","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("GaveShout","LOCALS",2)
+END
+
+IF
+	See(Player1)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+	StartDialogueNoSet(Player1)
+END

@@ -1,0 +1,9 @@
+IF
+	GlobalGT("YagaShuraHeart","GLOBAL",0)
+	Global("WGhelps","GLOBAL",2) 
+	!Dead("Gromnir")
+THEN
+	RESPONSE #100
+		SetGlobal("WGhelps","GLOBAL",3)
+		CreateCreature("WGgromn",[1945.1525],3)
+END

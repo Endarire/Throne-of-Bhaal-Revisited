@@ -1,0 +1,55 @@
+IF
+	OnCreation()
+	Global("SeenOutSara","GLOBAL",0)
+THEN
+	RESPONSE #100
+	ClearAllActions()	
+	StartCutSceneMode()
+	StartCutScene("cutsara")
+	Continue()
+END
+
+IF
+	Global("DiggerExists","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("DiggerExists","AR5203",1)
+	CreateCreature("YSGUAR06",[3228.871],0)
+
+	CreateCreature("WGDISUR",[3327.961],6) 
+	CreateCreature("SEWYAG03",[3327.961],6) // Leader
+	CreateCreature("SEWYAG01",[3385.981],6) // Duergar archer
+	CreateCreature("SEWYAG02",[3338.1015],6) // Orc archer
+	CreateCreature("SEWYAG04",[3289.1040],6) // Mage
+	Continue()
+END
+
+IF
+	Global("SeenBridge","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("SeenBridge","AR5203",1)
+	SetGlobal("SpawnStart","AR5203",2)
+	Continue()
+END
+
+IF
+	GlobalGT("YagaShuraHeart","GLOBAL",0)
+	Global("RevealYaga","AR5203",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("RevealYaga","AR5203",1)
+	Continue()
+END
+
+IF
+	GlobalGT("InsideSewers","GLOBAL",0)
+	Dead("WGdisur")
+	Global("WGdisurdead","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGdisurdead","AR5203",1)
+	ActionOverride("WGdisur",DestroySelf())
+	Continue()
+END
+

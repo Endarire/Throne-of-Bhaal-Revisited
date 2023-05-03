@@ -1,0 +1,8 @@
+IF 
+	Global("SaradushSacked","GLOBAL",0)
+	Global("SeenAmk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("SeenAmk","GLOBAL",1)
+	SetGlobal("METBAL","GLOBAL",2)
+END

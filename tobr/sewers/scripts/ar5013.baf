@@ -1,0 +1,46 @@
+/*IF 
+	OnCreation()
+	Global("MinersExist","GLOBAL",0)
+	!Dead("WGdisur")
+THEN 
+	RESPONSE #100
+	SetGlobal("MinersExist","GLOBAL",1)
+	
+	CreateCreature("WGdisur",[2651.1314],0)	
+	CreateCreature("SEWYAG03",[2503.1178],6) // Leader
+	CreateCreature("SEWYAG01",[2479.1204],6) // Duergar archer
+	CreateCreature("SEWYAG02",[2571.1222],6) // Orc archer
+	CreateCreature("SEWYAG04",[2522.1290],6) // Mage
+
+	ChangeEnemyAlly("WGdisur",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG03",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG01",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG02",GOODBUTBLUE)
+	ChangeEnemyAlly("SEWYAG04",GOODBUTBLUE)
+	Continue()
+END
+
+IF
+	Global("InsideSewers","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("InsideSewers","GLOBAL",3)
+	SaveGame(0)
+	Continue()
+END
+
+
+IF
+	Global("InsideSewers","GLOBAL",5)
+THEN 
+	RESPONSE #100
+
+	SetGlobal("InsideSewers","GLOBAL",6)
+	ChangeEnemyAlly("SEWYAG03",ENEMY)
+	ChangeEnemyAlly("SEWYAG01",ENEMY)
+	ChangeEnemyAlly("SEWYAG02",ENEMY)
+	ChangeEnemyAlly("SEWYAG04",ENEMY)
+	CreateCreature("WGCUTGUY",[2751.1414],0)
+	Continue()
+END
+*/

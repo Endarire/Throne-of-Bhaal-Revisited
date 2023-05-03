@@ -1,0 +1,6 @@
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+	ActionOverride(NearestEnemyOf(Myself),ChangeEnemyAlly(Myself,NEUTRAL))
+END

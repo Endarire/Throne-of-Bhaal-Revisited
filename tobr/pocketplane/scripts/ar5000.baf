@@ -1,0 +1,15 @@
+IF 
+	Global("SeenSara","GLOBAL",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("SeenSara","GLOBAL",1)
+END
+
+IF	
+	Global("WGsarboyExists","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGsarboyExists","GLOBAL",1)
+	CreateCreature("WGsarboy",[859.2019],0)
+	CreateCreature("WGsarboy",[895.1181],0)
+END

@@ -1,0 +1,242 @@
+SC
+CR
+CO
+TR
+16399 0 0 0 0 "AR5002EnteredArea" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+123OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5002EnteredArea" "" AC
+AC
+121OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+120OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"fincs225" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16399 0 0 0 0 "AR5002EnteredArea" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+123OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5002EnteredArea" "" AC
+AC
+121OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+120OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"cut225a" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16448 0 0 0 0 "reinfg" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "Gromnir" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 1 0 0 "GLOBALFIN_TIME_STOP_RUNNING" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5002fin_grom_reinforce" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5002fin_grom_reinforce" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 848 894 0 0"grommin" "" AC
+AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 894 841 0 0"jumjum" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16465 0 0 0 0 "Gromnir" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR5002AddXP" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR5002AddXP" "" AC
+AC
+327OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"Gromnir" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16448 0 0 0 0 "SaradushSiegeTimer" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+50AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+50 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+RE
+RE
+50AC
+254OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 20 20 0 0"" "" AC
+AC
+26OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AM5004S1" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+50 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+RE
+RE
+50AC
+254OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 20 20 0 0"" "" AC
+AC
+26OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"AM5004S2" "" AC
+AC
+115OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+50 0 0 0 0"GLOBALSaradushSiegeTimer" "" AC
+RE
+RS
+CR
+SC

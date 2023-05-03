@@ -1,0 +1,16 @@
+IF
+	Global("bedocast","LOCALS",0)
+THEN
+	RESPONSE #100
+	        SetGlobal("bedocast","LOCALS",1)
+	        SetGlobalTimer("bedocast20","LOCALS",20)
+	        SpellNoDec("Adellie",CLERIC_HEAL)	
+END
+
+IF
+	GlobalTimerExpired("bedocast20","LOCALS")
+THEN
+	RESPONSE #100
+	        SetGlobalTimer("bedocast20","LOCALS",20)
+	        SpellNoDec("Adellie",CLERIC_HEAL)
+END

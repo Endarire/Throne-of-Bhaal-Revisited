@@ -1,0 +1,32 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	Global("WGladder","AR5500",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,~You climb the ladder to the next level.~) 
+		SetGlobal("WGladder","AR5500",1)
+		ActionOverride(Player1,JumpToPoint([2846.1255])
+		ActionOverride(Player2,JumpToPoint([2851.1300])
+		ActionOverride(Player3,JumpToPoint([2818.1263])
+		ActionOverride(Player4,JumpToPoint([2816.1308])
+		ActionOverride(Player5,JumpToPoint([2766.1266])
+		ActionOverride(Player6,JumpToPoint([2763.1306])
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	Global("WGladder","AR5500",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,~You down the ladder to ground level.~) 
+		SetGlobal("WGladder","AR5500",0)
+		ActionOverride(Player1,JumpToPoint([2479.1247])
+		ActionOverride(Player2,JumpToPoint([2482.1271])
+		ActionOverride(Player3,JumpToPoint([2571.1264])
+		ActionOverride(Player4,JumpToPoint([2571.1294])
+		ActionOverride(Player5,JumpToPoint([2559.1324])
+		ActionOverride(Player6,JumpToPoint([2526.1322])
+END
+

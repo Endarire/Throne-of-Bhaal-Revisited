@@ -1,0 +1,17 @@
+IF 
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+	Dialogue([PC])
+END
+
+IF
+	OR (2)
+		Global("WGboyTalk","AR5000",1)
+		Global("MelissanJob","GLOBAL",1)
+THEN
+	RESPONSE #100
+	EscapeArea()
+END	
+	

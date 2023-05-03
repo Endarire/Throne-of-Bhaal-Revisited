@@ -1,0 +1,21 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		SetGlobal("SeenOutSara","GLOBAL",1)
+		SetGlobal("DiggersTalk","AR5203",1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		MultiPlayerSync()
+		StartMovie("SARADUSH")
+		Wait(1)
+		CreateCreature("CUTSPY",[3215.864],0)
+		Wait(1)
+		MoveViewPoint([3215.864],INSTANT)
+		FadeFromColor([30.0],0)
+		Wait(1)
+		ActionOverride("YSGUAR06",StartDialogueNoSet(Player1))
+END

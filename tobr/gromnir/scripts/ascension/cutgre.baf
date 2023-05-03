@@ -1,0 +1,21 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("gromnir")
+		EraseJournalEntry(64995)
+		EraseJournalEntry(65001)
+		EraseJournalEntry(65003)
+		Enemy()
+		SetGlobalTimer("reinfg","GLOBAL",10)
+		CreateCreature("GROMG03",[781.596],4)
+		CreateCreature("GROMG09",[832.609],4)
+		CreateCreature("GROMG10",[778.636],4)
+		ActionOverride("gromg03",Shout(ALERT))
+		ActionOverride("gromg03",Enemy())
+		ActionOverride("gromg05",Enemy())
+		ActionOverride("gromg08",Enemy())
+		ActionOverride("gromg09",Enemy())
+		ActionOverride("gromg10",Enemy())
+		EndCutSceneMode()
+END

@@ -1,0 +1,16 @@
+IF 
+	Global("SarevokExists","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("SarevokExists","GLOBAL",1)
+	CreateCreature("Sarevok",[1566.1183],0) // Sarevok
+	ActionOverride("Sarevok",MakeGlobal())
+END
+
+IF 
+	Global("SarevokTold","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("SarevokTold","GLOBAL",3)
+	ActionOverride("Sarevok",StartDialogueNoSet(Player1))
+END

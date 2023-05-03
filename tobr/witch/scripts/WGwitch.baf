@@ -1,0 +1,333 @@
+ // The number and position of males
+
+IF
+	Global("WGrecheck","ARTOBR",0)
+	Global("WG2check","ARTOBR",0)
+	Gender(Player2,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG2check","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",1)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",0)
+	Global("WG3check","ARTOBR",0)
+	Gender(Player3,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG3check","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",2)
+END
+
+IF
+Global("WGrecheck","ARTOBR",0)
+	Global("WG4check","ARTOBR",0)
+	Gender(Player4,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG4check","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",3)
+END
+
+IF
+Global("WGrecheck","ARTOBR",0)
+	Global("WG5check","ARTOBR",0)
+	Gender(Player5,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG5check","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",5)
+END
+
+IF
+Global("WGrecheck","ARTOBR",0)
+	Global("WG6check","ARTOBR",0)
+	Gender(Player6,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG6check","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",8)
+END
+
+/*
+
+// Recheck for men
+
+IF
+	Global("WGrecheck","ARTOBR",1)
+	See(Player2)
+	Global("WG2recheck","ARTOBR",0)
+	Gender(Player2,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG2recheck","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",1)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",1)
+	See(Player3)
+	Global("WG3recheck","ARTOBR",0)
+	Gender(Player3,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG3recheck","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",2)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",1)
+	See(Player4)
+	Global("WG4recheck","ARTOBR",0)
+	Gender(Player4,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG4recheck","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",3)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",1)
+	See(Player5)
+	Global("WG5recheck","ARTOBR",0)
+	Gender(Player5,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG5recheck","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",5)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",1)
+	See(Player6)
+	Global("WG6recheck","ARTOBR",0)
+	Gender(Player6,MALE)
+THEN
+	RESPONSE #100
+	SetGlobal("WG6recheck","ARTOBR",1)
+	IncrementGlobal("WGnum","ARTOBR",1)
+	IncrementGlobal("WGpos","ARTOBR",8)
+END
+
+*/
+
+// Start talking
+
+IF
+	See(Player1)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("WGcon","ARTOBR",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGcon","ARTOBR",2)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("WGmore","ARTOBR",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGmore","ARTOBR",2)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("WGnext","ARTOBR",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGnext","ARTOBR",2)
+	StartDialogueNoSet(Player1)
+END
+
+IF 
+	Global("WGlast","ARTOBR",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGlast","ARTOBR",2)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGrecheck","ARTOBR",2)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("WGrecheck","ARTOBR",3)
+THEN
+	RESPONSE #100
+		SetGlobal("WGrecheck","ARTOBR",4)
+		StartDialogueNoSet(Player1)
+END
+
+// Back into people
+
+IF
+	Global("WGback","ARTOBR",1)
+	Global("WGaback","ARTOBR",0)
+	See("Anomen") 
+	!InParty("Anomen")
+THEN 
+	RESPONSE #100
+      	SetGlobal("WGaback","ARTOBR",1)
+      	PlaySound("EFF_P06")
+		ActionOverride("Anomen", SetDialog("ANOME25A"))
+		ActionOverride("Anomen", ChangeAIScript("WTASIGHT",DEFAULT))
+		ActionOverride("Anomen", Polymorph("FIGHTER_MALE_HUMAN"))
+		ActionOverride("Anomen", JoinParty())
+END
+
+IF 
+	Global("WGback","ARTOBR",1)
+	Global("WGcback","ARTOBR",0)
+	See("Cernd")
+	!InParty("Cernd")
+THEN
+	RESPONSE #100
+   		SetGlobal("WGcback","ARTOBR",1)
+        PlaySound("EFF_P06")
+		ActionOverride("Cernd", SetDialog("CERND25A"))
+		ActionOverride("Cernd", ChangeAIScript("DRUIDX",DEFAULT))
+		ActionOverride("Cernd", Polymorph("CLERIC_MALE_HUMAN_LOW"))
+		ActionOverride("Cernd", JoinParty())
+END
+
+IF 
+	Global("WGback","ARTOBR",1)
+	Global("WGeback","ARTOBR",0)
+	See("Edwin")
+	!InParty("Edwin")
+THEN
+	RESPONSE #100
+		SetGlobal("WGeback","ARTOBR",1)
+      	PlaySound("EFF_P06")
+		ActionOverride("Edwin", SetDialog("EDWIN25A"))
+		ActionOverride("Edwin", ChangeAIScript("DPLAYER",DEFAULT))
+		ActionOverride("Edwin", Polymorph("MAGE_MALE_HUMAN"))
+		ActionOverride("Edwin", JoinParty())
+END
+
+IF
+	Global("WGback","ARTOBR",1)
+	Global("WGhback","ARTOBR",0)
+	See("HaerDalis") 
+	!InParty("HaerDalis")
+THEN
+	RESPONSE #100
+		SetGlobal("WGhback","ARTOBR",1)
+        PlaySound("EFF_P06")
+		ActionOverride("HaerDalis", SetDialog("HAERD25A"))
+		ActionOverride("HaerDalis", ChangeAIScript("WTASIGHT",DEFAULT))
+		ActionOverride("HaerDalis", Polymorph("FIGHTER_MALE_HUMAN"))
+		ActionOverride("HaerDalis", JoinParty())
+END
+
+IF
+	Global("WGback","ARTOBR",1)
+	Global("WGjback","ARTOBR",0)		
+	See("Jan")
+	!InParty("Jan")
+THEN
+	RESPONSE #100
+ 		SetGlobal("WGjback","ARTOBR",1)
+      	PlaySound("EFF_P06")
+		ActionOverride("Jan", SetDialog("JAN25A"))
+		ActionOverride("Jan", ChangeAIScript("JANX",DEFAULT))
+		ActionOverride("Jan", Polymorph("MAGE_MALE_GNOME"))
+		ActionOverride("Jan", JoinParty())
+END
+
+	
+IF 
+	Global("WGback","ARTOBR",1)
+	Global("WGkeback","ARTOBR",0)
+	See("Keldorn") 
+	!InParty("Keldorn")
+THEN
+	RESPONSE #100
+	SetGlobal("WGkeback","ARTOBR",1)
+    PlaySound("EFF_P06")
+	ActionOverride("Keldorn", SetDialog("KELDO25A"))
+	ActionOverride("Keldorn", ChangeAIScript("KELDORNX",DEFAULT))
+	ActionOverride("Keldorn", Polymorph("FIGHTER_MALE_HUMAN"))
+	ActionOverride("Keldorn", JoinParty())
+END
+
+IF 
+	Global("WGback","ARTOBR",1)
+	Global("WGkoback","ARTOBR",0)
+	See("Korgan")
+	!InParty("Korgan")
+THEN
+	RESPONSE #100
+	   		SetGlobal("WGkoback","ARTOBR",1)
+      	    PlaySound("EFF_P06")
+			ActionOverride("Korgan", SetDialog("KORGA25A"))
+			ActionOverride("Korgan", ChangeAIScript("KORGANX",DEFAULT))
+			ActionOverride("Korgan", Polymorph("FIGHTER_MALE_DWARF"))
+			ActionOverride("Korgan", JoinParty())
+END
+
+IF 
+	Global("WGback","ARTOBR",1)
+	Global("WGmback","ARTOBR",0)
+	See("Minsc") 
+	!InParty("Minsc")
+THEN
+	RESPONSE #100
+			SetGlobal("WGmback","ARTOBR",1)
+      	    PlaySound("EFF_P06")
+			ActionOverride("Minsc", SetDialog("MINSC25A"))
+			ActionOverride("Minsc", ChangeAIScript("DPLAYER",DEFAULT))
+			ActionOverride("Minsc", Polymorph("FIGHTER_MALE_HUMAN"))
+			ActionOverride("Minsc", JoinParty())
+END
+
+IF
+	Global("WGback","ARTOBR",1)
+	Global("WGsback","ARTOBR",0)
+	See("Sarevok")
+	!InParty("Sarevok")
+THEN
+	RESPONSE #100
+		SetGlobal("WGsback","ARTOBR",1)
+   	    PlaySound("EFF_P06")
+		ActionOverride("Sarevok", SetDialog("SAREV25A"))
+		ActionOverride("Sarevok", ChangeAIScript("DPLAYER2",DEFAULT))
+		ActionOverride("Sarevok", Polymorph("FIGHTER_MALE_HUMAN"))
+		ActionOverride("Sarevok", JoinParty())
+END
+
+IF
+	Global("WGback","ARTOBR",1)
+	Global("WGvback","ARTOBR",0)
+	See("Valygar") 
+	!InParty("Valygar")
+THEN
+	RESPONSE #100
+      		SetGlobal("WGvback","ARTOBR",1)
+      	    PlaySound("EFF_P06")
+			ActionOverride("Valygar", SetDialog("VALYG25A"))
+			ActionOverride("Valygar", ChangeAIScript("WTASIGHT",DEFAULT))
+			ActionOverride("Valygar", Polymorph("FIGHTER_MALE_HUMAN"))
+			ActionOverride("Valygar", JoinParty())
+END

@@ -1,0 +1,10 @@
+IF
+	Range([PC],30)
+	Global("GuardsTalk","AR5000",0)
+THEN
+	RESPONSE #100
+	SetGlobal("GuardsTalk","AR5000",1)
+	MoveViewPoint([2167.1153],VERY_FAST)
+	CreateCreature("CUTSPY",[2167.1153],0)
+	StartDialogueNoSet(Player1)
+END

@@ -1,0 +1,14 @@
+IF
+	Global("HunterExists","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("HunterExists","GLOBAL",1)
+	CreateCreature("WGHUNTER",[3200.1100],0)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+	Explore()
+END

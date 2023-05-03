@@ -1,0 +1,9 @@
+IF
+	Global("YagaShuraHeart","GLOBAL",0)
+	Global("WGgdeal","GLOBAL",0)
+	Global("WGsdeal","GLOBAL",0)
+	See(Player1)
+THEN
+	RESPONSE #100
+	StartDialogueNoSet(Player1)
+END

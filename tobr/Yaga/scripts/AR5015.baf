@@ -1,0 +1,53 @@
+IF
+	Global("SamandExists","AR5015",0)
+	Global("WGsdeal","GLOBAL",1)
+	OpenState("Secret1",TRUE)
+THEN
+	RESPONSE #100
+	Wait(5)
+	SetGlobal("SamandExists","AR5015",1)
+	CreateCreature("SARCPT01",[658.398],6)
+	ActionOverride("SARCPT01",MoveToPoint([530.364])
+	Face(12)
+	SmallWait(1)
+	CreateCreature("SARIPG01",[658.398],6)
+	ActionOverride("SARIPG01",MoveToPoint([658.398]))
+	Wait(3)
+END
+
+IF
+	Exists("SARGRD01")	
+THEN 
+	RESPONSE #100
+	SetGlobal("WGg1exists","GLOBAL",1)
+	ActionOverride("SARGRD01",DestroySelf())
+END
+
+IF
+	Exists("SARGRD02")
+THEN 
+	RESPONSE #100
+	SetGlobal("WGg2exists","GLOBAL",1)
+	ActionOverride("SARGRD02",DestroySelf())
+END
+
+IF 
+	Global("WGsfight","AR5015",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGsfight","AR5015",2)
+	ActionOverride("SARCPT01",Enemy())
+	CreateCreature("SARIPG01",[658.398],6)
+	SmallWait(2)
+	CreateCreature("SARIPG01",[658.398],6)
+	SmallWait(2)
+	CreateCreature("SARIPG01",[658.398],6)
+END
+
+IF
+	Dead("SARCPT01")
+	Global("WGsdeal","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WGsdeal","GLOBAL",2)
+END

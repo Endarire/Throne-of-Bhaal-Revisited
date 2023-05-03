@@ -1,0 +1,10 @@
+IF
+	Global("WGClericQuest","GLOBAL",2)
+	Global("WGdestruction","AR5202",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGdestruction","AR5202",1)
+	CreateCreature("WGdestru",[914.926],0)
+	CreateCreature("WGdestru",[301.1000],0)
+	CreateCreature("WGdestru",[1629.749],0)
+END

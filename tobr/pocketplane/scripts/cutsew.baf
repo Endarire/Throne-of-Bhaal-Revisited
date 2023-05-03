@@ -1,0 +1,39 @@
+IF
+	True()
+THEN
+	RESPONSE #100 
+			CutSceneId(Player1)
+			ClearAllActions()
+			FadeToColor([30.0],0)
+			Wait(1)
+			ActionOverride("WGdisur",DestroySelf())
+			Wait(1)
+			LeaveAreaLUAPanic("AR5013","",[2651.1314],10)
+			ActionOverride(Player2,LeaveAreaLUA("AR5013","",[2725.1323],10))
+			ActionOverride(Player3,LeaveAreaLUA("AR5013","",[2658.1358],10))
+			ActionOverride(Player4,LeaveAreaLUA("AR5013","",[2695.1387],10))
+			ActionOverride(Player5,LeaveAreaLUA("AR5013","",[2730.1372],10))
+			ActionOverride(Player6,LeaveAreaLUA("AR5013","",[2750.1345],10)) 
+			LeaveAreaLUA("AR5013","",[2651.1314],10)
+	
+			Wait(1)
+			SetGlobal("MinersExist","GLOBAL",1)
+	
+			CreateCreature("WGdisur",[2651.1314],0)	
+			CreateCreature("SEWYAG03",[2503.1178],6) // Leader
+			CreateCreature("SEWYAG01",[2479.1204],6) // Duergar archer
+			CreateCreature("SEWYAG02",[2571.1222],6) // Orc archer
+			CreateCreature("SEWYAG04",[2522.1290],6) // Mage
+            CreateCreature("WGCUTGUY",[2751.1414],0)
+            
+			ChangeEnemyAlly("WGdisur",GOODBUTBLUE)
+			ChangeEnemyAlly("SEWYAG03",GOODBUTBLUE)
+			ChangeEnemyAlly("SEWYAG01",GOODBUTBLUE)
+			ChangeEnemyAlly("SEWYAG02",GOODBUTBLUE)
+			ChangeEnemyAlly("SEWYAG04",GOODBUTBLUE)
+						
+			SetGlobal("InsideSewers","GLOBAL",2)
+			Wait(1)
+			FadeFromColor([30.0],0)
+			ActionOverride("WGdisur",StartDialogueNoSet(Player1))
+END

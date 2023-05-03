@@ -1,0 +1,16 @@
+IF 
+	Global("HessaExists","AR5003",0)
+THEN
+	RESPONSE #100
+		SetGlobal("HessaExists","AR5003",1)
+		CreateCreature("Hessa",[1092.643],12)
+END
+
+IF
+	Global("TyrellExists","AR5003",0)
+THEN
+	RESPONSE #100
+		SetGlobal("TyrellExists","AR5003",1)
+		CreateCreature("Tyrell",[908.674],0)
+END
+

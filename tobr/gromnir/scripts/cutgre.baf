@@ -1,0 +1,17 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("gromnir")
+		EraseJournalEntry(64995)
+		EraseJournalEntry(65001)
+		EraseJournalEntry(65003)
+		Enemy()
+		CreateCreature("GROMG03",[781.596],4)
+		CreateCreature("GROMG09",[832.609],4)
+		CreateCreature("GROMG10",[778.636],4)
+		ActionOverride("gromg03",Shout(151))
+		ActionOverride("gromg03",Enemy())
+		Shout(151)
+		EndCutSceneMode()
+END

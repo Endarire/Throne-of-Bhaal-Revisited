@@ -1,0 +1,30 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+	CutSceneId(Player1)
+	SetGlobal("DiggersTalk","AR5203",2)
+			
+	ActionOverride("YSGUAR06",MoveToPoint([1844.1573]))
+			
+	Wait(1)
+
+	ActionOverride("SEWYAG01",MoveToPoint([3248.1014]))
+	ActionOverride("SEWYAG01",DestroySelf())
+	ActionOverride("SEWYAG02",MoveToPoint([3248.1014]))
+	ActionOverride("SEWYAG02",DestroySelf())
+	ActionOverride("SEWYAG03",MoveToPoint([3248.1014]))
+	ActionOverride("SEWYAG03",DestroySelf())
+	ActionOverride("SEWYAG04",MoveToPoint([3248.1014]))
+	ActionOverride("SEWYAG04",DestroySelf())
+
+	ActionOverride("YSGUAR06",DestroySelf())
+
+	Wait(4)
+
+	ActionOverride("CUTSPY",DestroySelf())
+
+	MoveViewPoint([3689.543],INSTANT)
+	EndCutSceneMode()
+
+END

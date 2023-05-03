@@ -1,0 +1,16 @@
+IF
+	Global("WGg1exists","GLOBAL",1)
+THEN 
+	RESPONSE #100
+	SetGlobal("WGg1exists","GLOBAL",0)
+	CreateCreature("SARGRD01",[1754.947],0)
+END
+
+IF
+	Global("WGg2exists","GLOBAL",1)
+THEN 
+	RESPONSE #100
+	SetGlobal("WGg2exists","GLOBAL",0)
+	CreateCreature("SARGRD02",[1950.946],0)
+END
+

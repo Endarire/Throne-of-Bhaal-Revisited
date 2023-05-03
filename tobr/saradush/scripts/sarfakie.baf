@@ -1,0 +1,11 @@
+IF
+	See("eleni")
+	!GlobalTimerNotExpired("AttackWall","LOCALS")
+THEN
+	RESPONSE #20
+		ReallyForceSpellRES("jwsiege","eleni") // No such index
+		SetGlobalTimer("AttackWall","LOCALS",20)
+	RESPONSE #80
+		ReallyForceSpellRES("jwarrow","eleni") // No such index
+		SetGlobalTimer("AttackWall","LOCALS",3)
+END

@@ -1,0 +1,995 @@
+BACKUP ~ToBR/backup~	
+AUTHOR ~wildgirlmods@gmail.com~
+
+README ~ToBR/ReadMe.html~
+
+VERSION ~beta 4 BWP Fix~
+
+
+///////////////////////////////
+//////////Gromnir - 0//////////
+///////////////////////////////
+
+BEGIN ~Gromnir~
+GROUP ~Characters~
+
+// Creatures
+
+COPY ~ToBR/Gromnir/cre/WGgromn.cre~ ~override~
+
+//Dialogue
+
+COMPILE ~ToBR/Gromnir/dialogue/gromnir.d~
+COMPILE ~ToBR/Gromnir/dialogue/sarmel01.d~
+COMPILE ~ToBR/Gromnir/dialogue/yaga01.d~
+
+// Scripts -- Areas
+EXTEND_BOTTOM ~AR5203.bcs~ ~ToBR/Gromnir/scripts/AR5203.baf~
+
+//Scripts -- Creatures
+  
+COPY_EXISTING ~YAGA01.bcs~ ~override/YAGA01.bcs~
+  DECOMPILE_BCS_TO_BAF
+	REPLACE_TEXTUALLY ~NumberOfTimesTalkedTo(0)~
+					  ~OR(3)
+					   	 Dead("GROMNIR")
+					   	 Dead("WGgromn")
+					   	 Global("WGhelps","GLOBAL",0)~
+    REPLACE_TEXTUALLY ~HasItem("invulner",Myself)~
+    				  ~HasItem("invulner",Myself)
+    				   Dead("WGgromn")~
+    REPLACE_TEXTUALLY ~HasItem("sureHP1",Myself)~
+    				  ~HasItem("sureHP1",Myself)
+    				   Dead("WGgromn")~					
+  COMPILE_BAF_TO_BCS					
+
+EXTEND_BOTTOM ~yaga01.bcs~ ~ToBR/Gromnir/scripts/yaga01.baf~
+
+ACTION_IF FILE_EXISTS_IN_GAME ~GROMNIR.BCS~
+  THEN BEGIN
+    EXTEND_BOTTOM ~GROMNIR.BCS~ ~ToBR/Gromnir/scripts/gromnir.baf~
+  END ELSE BEGIN
+	COPY_EXISTING ~GROMNIR.cre~ ~override~
+	  WRITE_ASCII 0x248 ~GROMNIR~ 
+    COMPILE ~ToBR/Gromnir/scripts/gromnir.baf~
+  END
+ 
+//Scripts -- Cutscenes (compatible w/ Ascension)
+
+ACTION_IF !(FILE_EXISTS_IN_GAME ~jumjum.CRE~)
+  THEN BEGIN
+    COMPILE ~ToBR/Gromnir/scripts/cutgre.baf~
+  END ELSE BEGIN
+  	COMPILE ~ToBR/Gromnir/scripts/ascension/cutgre.baf~
+  END
+ 
+////////////////////////////////
+//////////Melissan - 1//////////
+////////////////////////////////
+
+BEGIN ~Melissan~
+GROUP ~Characters~
+
+//Items
+
+COPY ~TOBR/Melissan/items/WGdtcn.itm~ ~override~
+
+//Add the Amulet
+
+COPY_EXISTING ~mel01.cre~ ~override~
+  ADD_CRE_ITEM ~WGdtcn~ #0 #0 #0 ~IDENTIFIED&UNSTEALABLE&UNDROPPABLE~ ~AMULET~ EQUIP
+
+/////////////////////////////
+//////////Solar - 2//////////
+/////////////////////////////
+
+BEGIN ~Solar~
+GROUP ~Characters~
+
+//Dialogues
+COMPILE	~ToBR/Solar/dialogue/solar1.d~ 	~ToBR/Solar/dialogue/sarev25a.d~
+
+//Scripts -- Areas
+EXTEND_BOTTOM ~AR4500.bcs~  ~ToBR/Solar/scripts/AR4500.baf~
+
+//Scripts -- Cut Scenes
+COMPILE ~ToBR/Solar/scripts/cutsolar.baf~
+
+//Scripts -- Portal
+
+COPY_EXISTING ~itpplane.bcs~ ~override/itpplane.bcs~
+REPLACE_BCS_BLOCK ~ToBR/Solar/scripts/itpplane_old.baf~ ~ToBR/Solar/scripts/itpplane_new.baf~
+
+EXTEND_BOTTOM ~itpplane.bcs~ ~ToBR/Solar/scripts/itpplane.baf~
+
+////////////////////////////////
+//////////Yaga Shura - 3////////
+////////////////////////////////
+
+BEGIN ~Yaga Shura~
+GROUP ~Characters~
+
+// Dialogue 
+
+COMPILE ~ToBR/Yaga/dialogue/yaga01.d~
+COMPILE ~ToBR/Yaga/dialogue/sarcpt01.d~
+
+
+
+// Creatures
+COPY ~ToBR/Yaga/cre/WGneutra.cre~ ~override~
+COPY ~ToBR/Yaga/cre/WGfire01.cre~ ~override~
+	SAY NAME1 ~Fire Giant Leader~
+	SAY NAME2 ~Fire Giant Leader~
+COPY ~ToBR/Yaga/cre/WGfire02.cre~ ~override~
+	SAY NAME1 ~Fire Giant Archer~
+	SAY NAME2 ~Fire Giant Archer~
+
+//items
+COPY ~ToBR/Yaga/items/WGbow.itm~ ~override~
+
+// Scripts -- Areas
+
+EXTEND_BOTTOM ~AR5203.bcs~ ~ToBR/Yaga/scripts/AR5203.baf~  
+EXTEND_BOTTOM ~AR5015.bcs~ ~ToBR/Yaga/scripts/AR5015.baf~
+EXTEND_BOTTOM ~AR5000.bcs~ ~ToBR/Yaga/scripts/AR5000.baf~
+EXTEND_BOTTOM ~AR5002.bcs~ ~ToBR/Yaga/scripts/AR5002.baf~
+
+// Scripts -- Creatures
+
+COPY_EXISTING ~YAGA01.bcs~ ~override/YAGA01.bcs~
+  DECOMPILE_BCS_TO_BAF
+	REPLACE_TEXTUALLY ~OR(3)~
+					  ~GlobalGT("YagaShuraHeart","GLOBAL",0)
+					    OR(3)~
+  COMPILE_BAF_TO_BCS
+
+EXTEND_BOTTOM ~yaga01.bcs~ ~ToBR/yaga/scripts/yaga01.baf~
+
+COPY_EXISTING ~SARIPG01.cre~ ~override~
+	WRITE_ASCII 0x250 ~SARIPG01~
+COPY_EXISTING ~SARGRD01.cre~ ~override~
+	WRITE_ASCII 0x258 ~SARGRD01~
+COPY_EXISTING ~SARGRD02.cre~ ~override~
+	WRITE_ASCII 0x258 ~SARGRD01~
+COPY_EXISTING ~SARJAI01.CRE~ ~override~
+	WRITE_ASCII 0x248 ~SARGRD01~
+	
+COMPILE ~ToBR/Yaga/scripts/WGneutra.baf~
+COMPILE ~ToBR/Yaga/scripts/saripg01.baf~ ~ToBR/Yaga/scripts/sargrd01.baf~
+
+EXTEND_BOTTOM ~PTYAGA.bcs~ ~ToBR/Yaga/scripts/ptyaga.baf~
+
+COMPILE ~ToBR/Yaga/scripts/YSsold01.baf~ ~ToBR/Yaga/scripts/YSsold02.baf~
+        ~ToBR/Yaga/scripts/YSsold03.baf~ ~ToBR/Yaga/scripts/YSsold04.baf~
+        ~ToBR/Yaga/scripts/YSfire01.baf~ ~ToBR/Yaga/scripts/YSfire02.baf~
+        ~ToBR/Yaga/scripts/WGfire01.baf~ ~ToBR/Yaga/scripts/WGfire02.baf~
+
+// Dialogues if Gromnir is installed
+ACTION_IF FILE_EXISTS_IN_GAME ~WGgromn.cre~
+  THEN BEGIN
+  COMPILE ~ToBR/Yaga/dialogue/WGgromnir.d~
+  END
+
+// Dialogues if Ascension is installed  
+
+ACTION_IF FILE_EXISTS_IN_GAME ~yscler01.cre~
+  THEN BEGIN
+    COMPILE ~ToBR/Yaga/dialogue/yaga01_asc.d~
+  END
+    
+// Scripts if Ascension is installed
+ACTION_IF FILE_EXISTS_IN_GAME ~yscler01.cre~
+  THEN BEGIN
+    COPY_EXISTING ~YSsold01.cre~ ~override~
+    WRITE_ASCII 0x248 YSSOLD01
+    COPY_EXISTING ~YSsold02.cre~ ~override~
+    WRITE_ASCII 0x248 YSSOLD02
+    COPY_EXISTING ~YSsold03.cre~ ~override~
+    WRITE_ASCII 0x248 YSSOLD03
+    COPY_EXISTING ~YSsold04.cre~ ~override~
+    WRITE_ASCII 0x248 YSSOLD04
+    COPY_EXISTING ~YSfire01.cre~ ~override~
+    WRITE_ASCII 0x248 YSfire01
+    COPY_EXISTING ~YSfire02.cre~ ~override~
+    WRITE_ASCII 0x248 YSfire02
+  END
+
+/////////////////////////////////////////////
+//////////Grove of the Ancients - 4//////////
+/////////////////////////////////////////////
+
+BEGIN ~Grove of the Ancients~ 
+GROUP ~Linearity~ 
+
+//Creatures
+COPY ~ToBR/Grove/cre/WGelle.CRE~  ~override/WGelle.CRE~       
+  SAY NAME1 ~Ellesime~ 
+  SAY NAME2 ~Ellesime~ 
+
+//Dialogues
+COMPILE ~ToBR/Grove/dialogue/WGelle.d~
+
+//Scripts -- Areas
+COPY_EXISTING ~ar4000.bcs~ ~override/AR4000.bcs~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~DisplayStringNoName(Player1,70742)~ //Gets rid of obnoxious head string
+                      ~~
+    REPLACE_TEXTUALLY ~Global("EnteredAR4000","AR4000",0)~ // Can't click on heads before speaking to Ellesime
+                      ~Global("EnteredAR4000","AR4000",0) GlobalGT("SuelleBegin","AR4000",2)~
+    REPLACE_TEXTUALLY ~GlobalTimerExpired("IllaseraSpawnTimer","GLOBAL")~ // Spawns Illasera w/o a timer
+	              ~True()~
+    REPLACE_TEXTUALLY ~Global("IllaseraSpawn","GLOBAL",1)~
+	              ~Global("IllaseraSpawn","GLOBAL",2)~
+    REPLACE_TEXTUALLY ~Global("IllaseraSpawn","GLOBAL",0)~
+		      ~Global("IllaseraSpawn","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+
+EXTEND_BOTTOM ~AR4000.bcs~ ~ToBR/Grove/scripts/AR4000.baf~
+
+//Scripts -- Creatures
+COMPILE ~ToBR/Grove/scripts/WGelle.baf~
+
+//Scripts -- Cut Scenes
+COMPILE ~ToBR/Grove/scripts/WGcutgro.baf~
+
+// Dependent on WoP
+ACTION_IF !(FILE_EXISTS_IN_GAME ~dw#head2.bcs~)
+  THEN BEGIN
+    COMPILE ~ToBR/Grove/dialogue/head1.d~ ~ToBR/Grove/dialogue/head2.d~ 
+            ~ToBR/Grove/dialogue/head3.d~ ~ToBR/Grove/dialogue/head4.d~ 
+            ~ToBR/Grove/dialogue/head5.d~
+  END ELSE BEGIN
+    COMPILE ~ToBR/Grove/dialogue/head5WP.d~ ~ToBR/Grove/dialogue/WGelleWP.d~
+
+    EXTEND_BOTTOM ~AR4000.bcs~ ~ToBR/Grove/scripts/AR4000WP.baf~
+  END
+
+//Dependent on LR
+
+ACTION_IF FILE_EXISTS_IN_GAME ~LRELLE1.dlg~ 
+  THEN BEGIN
+
+  COMPILE ~ToBR/Grove/dialogue/WGelleLR.d~
+
+  COPY_EXISTING ~AR4000.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~SetGlobalTimer("ElleSpawnTimer","GLOBAL",10)~
+                        ~~
+    COMPILE_BAF_TO_BCS
+
+  COPY_EXISTING ~ITHEADS.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Global("TalkedEllesime","GLOBAL",0)~
+                        ~False()~
+    COMPILE_BAF_TO_BCS
+
+  EXTEND_BOTTOM ~WGelle.bcs~ ~ToBR/Grove/scripts/WGelleLR.baf~
+
+  END
+  
+////////////////////////////////////
+//////////Pocket Plane - 5//////////
+////////////////////////////////////
+
+BEGIN ~Pocket Plane~ 
+GROUP ~Linearity~
+
+//The Sewers
+INCLUDE ~ToBR/sewers/sewers.tph~
+
+// Creatures
+
+COPY ~ToBR/pocketplane/cre/WGhunter.cre~ ~override~   //Hunter in Tethyr
+  SAY NAME1 ~Hunter~
+  SAY NAME2 ~Hunter~
+COPY ~ToBR/pocketplane/cre/WGdisur.cre~ ~override~    //Duergar outside Saradush
+COPY ~ToBR/pocketplane/cre/WGcutguy.cre~ ~override~   //Invisible creature for head string
+COPY ~ToBR/pocketplane/cre/WGsarboy.cre~ ~override~   //Boy in Saradush	
+
+
+// Dialogue
+
+COMPILE ~ToBR/pocketplane/dialogue/ppguy01.d~    ~ToBR/pocketplane/dialogue/sarev25A.d~
+        ~ToBR/pocketplane/dialogue/gorodr1.d~    ~ToBR/pocketplane/dialogue/WGhunter.d~
+        ~ToBR/pocketplane/dialogue/WGdiggers.d~  ~ToBR/pocketplane/dialogue/sarmel01.d~
+        ~ToBR/pocketplane/dialogue/WGsarboy.d~   ~ToBR/pocketplane/dialogue/sarpro01.d~
+	    ~ToBR/pocketplane/dialogue/sarwai01.d~   ~ToBR/pocketplane/dialogue/hgkar01.d~
+	    ~ToBR/pocketplane/dialogue/ambar01.d~    ~ToBR/pocketplane/dialogue/amcler02.d~
+
+// Sarevok's dialogue dependent on Solar component
+
+ACTION_IF FILE_EXISTS_IN_GAME ~cutsolar.bcs~
+  THEN 
+    BEGIN COMPILE ~ToBR/pocketplane/dialogue/sarev25a_solar.d~ END 
+  ELSE
+    BEGIN COMPILE ~ToBR/pocketplane/dialogue/sarev25a_nosolar.d~ END
+
+// Scripts -- Areas
+
+COPY_EXISTING ~AR5203.bcs~ ~override/AR5203.bcs~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~SetGlobal("RevealYaga","AR5203",1)~
+                      ~SetGlobal("RevealYaga","AR5203",2)~
+    REPLACE_TEXTUALLY ~Global("RevealYaga","AR5203",0)~
+                      ~Global("RevealYaga","AR5203",1)~
+  COMPILE_BAF_TO_BCS
+
+EXTEND_TOP    ~AR5203.bcs~ ~ToBR/pocketplane/scripts/AR5203.baf~
+EXTEND_BOTTOM ~AR5000.bcs~ ~ToBR/pocketplane/scripts/AR5000.baf~
+EXTEND_BOTTOM ~AR5001.bcs~ ~ToBR/pocketplane/scripts/AR5001.baf~
+EXTEND_BOTTOM ~AR6300.bcs~ ~ToBR/pocketplane/scripts/AR6300.baf~
+EXTEND_TOP    ~AR5500.bcs~ ~ToBR/pocketplane/scripts/AR5500.baf~
+
+COMPILE ~ToBR/pocketplane/scripts/AR6400.baf~
+
+// Scripts -- Creatures
+EXTEND_BOTTOM ~itpplane.bcs~ ~ToBR/pocketplane/scripts/itpplane.baf~
+
+COPY_EXISTING ~sarman01.bcs~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Range("Waypoint1",4)~ 
+                                    ~Range("Waypoint1",4) Global("GuardsTalk","AR5000",1)~
+  COMPILE_BAF_TO_BCS
+  
+COPY_EXISTING ~gromg01.cre~ ~override~
+  WRITE_ASCII 0x248 ~GROMG01~ 
+
+COMPILE ~ToBR/pocketplane/scripts/WGcutguy.baf~  ~ToBR/pocketplane/scripts/WGdisur.baf~
+        ~ToBR/pocketplane/scripts/ysguar06.baf~  ~ToBR/pocketplane/scripts/sewyag01.baf~ 
+        ~ToBR/pocketplane/scripts/sewyag02.baf~  ~ToBR/pocketplane/scripts/sewyag03.baf~
+        ~ToBR/pocketplane/scripts/sewyag04.baf~  ~ToBR/pocketplane/scripts/WGhunter.baf~
+        ~ToBR/pocketplane/scripts/gromg01.baf~   ~ToBR/pocketplane/scripts/WGsarboy.baf~
+
+// Scripts -- Cutscenes
+COMPILE ~ToBR/pocketplane/scripts/cutsara.baf~ ~ToBR/pocketplane/scripts/cutsara2.baf~ 
+        ~ToBR/pocketplane/scripts/cutmel.baf~  ~ToBR/pocketplane/scripts/cutsew.baf~  
+
+// Portal scripts dependent on Solar component
+
+ACTION_IF FILE_EXISTS ~override/cutsolar.bcs~ 
+  THEN BEGIN
+    COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
+    REPLACE_BCS_BLOCK ~ToBR/pocketplane/scripts/ITPPLANE_solar.baf~ ~ToBR/pocketplane/scripts/ITPPLANE_new.baf~
+  END ELSE BEGIN
+    COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
+    REPLACE_BCS_BLOCK ~ToBR/pocketplane/scripts/ITPPLANE_old.baf~ ~ToBR/pocketplane/scripts/ITPPLANE_new.baf~
+  END
+
+// Adding the Tethyr Woods area (Shamelessly stolen from SConrad at G3)
+
+COPY ~ToBR/pocketplane/areas/ARTOBR.are~ ~override~
+  SAY 0x2a60 ~Hunter~
+
+COMPILE ~ToBR/pocketplane/scripts/ARTOBR.baf~
+
+// Append mastarea.2da with the new area
+APPEND ~MASTAREA.2da~ ~ARTOBR  value~
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY toNewArea BEGIN
+  AR3000 => CDExit
+END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY fromNewArea BEGIN
+  AR3000 => ExitSW
+  AR6300 => ExitW
+  AR5203 => ExitNE
+  AR5500 => ExitS
+END
+
+OUTER_SPRINT strDesc #-1
+
+LAF sc#addWmpAre INT_VAR mapIcon = 6 xCoord = 400 yCoord = 50 tTime = 0 inclSv = 0 STR_VAR areName = ARTOBR strName = "Tethyr Woods" strDesc worldmap = worldm25 END
+
+COPY_EXISTING worldm25.wmp override
+  READ_LONG 0x30 na
+  READ_LONG 0x34 ao
+  FOR (i=0;i<na;++i) BEGIN
+    READ_ASCII ao + 0xf0*i area
+    PATCH_IF "%area%" STRING_EQUAL_CASE ar5203 OR "%area%" STRING_EQUAL_CASE ar6300 OR "%area%" STRING_EQUAL_CASE ar6400 BEGIN
+      WRITE_BYTE ao + i*0xf0 + 0x30 THIS BOR BIT2
+      PATCH_IF "%area%" STRING_EQUAL_CASE ar5203 BEGIN
+        SAY ao + i*0xf0 + 0x40 "Outside Saradush"
+        SAY ao + i*0xf0 + 0x44 "Outside Saradush"
+      END
+    END
+  END
+BUT_ONLY
+
+COPY_EXISTING ~AR5013.are~ ~override~
+// Make the door in the sewers operate on the key in the guard house
+  READ_LONG 0xa8 door_off
+  READ_SHORT 0xa4 door_num
+
+  FOR (i = 0 ; i < door_num ; i += 1) BEGIN
+    READ_ASCII door_off + 0xc8 * i "door"
+    
+    PATCH_IF  ~%door%~ STRING_EQUAL_CASE Door01 BEGIN
+      READ_BYTE  ("%door_off%" + 0x29 + (i * 0xc8)) "flag1"
+      WRITE_BYTE ("%door_off%" + 0x29 + (i * 0xc8)) ("%flag1%" BOR 0b00000100) // Adds key
+      WRITE_ASCII ("%door_off%" + 0x78 + (i * 0xc8)) SARKEY04 // Key name
+      WRITE_BYTE ("%door_off%" + 0x8c + (i * 0xc8)) 100 // lock difficulty
+      WRITE_LONG ("%door_off%" + 0x98 + (i * 0xc8)) 43963 // fail open message
+    END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+// Dependent on Yaga Shura Component
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~WGneutra.cre~)
+  THEN BEGIN
+	
+// Scripts -- Areas
+	EXTEND_BOTTOM ~AR5203.bcs~ ~ToBR/pocketplane/scripts/AR5203_yaga.baf~
+  END
+  
+/////////////////////////////////
+//////////Any Order - 6//////////
+/////////////////////////////////
+
+BEGIN ~Fight Five in Any Order~
+GROUP ~Linearity~
+
+// Make is so the Lovetalks continue even if Saradush isn't sacked yet
+COPY_EXISTING ~aeri25.bcs~ ~override~
+  REPLACE_BCS_BLOCK ~ToBR/anyorder/romances/aerie_old.baf~ 
+                    ~ToBR/anyorder/romances/aerie_new.baf~
+COPY_EXISTING ~anom25.bcs~ ~override~
+  REPLACE_BCS_BLOCK ~ToBR/anyorder/romances/anomen_old.baf~ 
+                    ~ToBR/anyorder/romances/anomen_new.baf~
+COPY_EXISTING ~jahe25.bcs~ ~override~
+  REPLACE_BCS_BLOCK ~ToBR/anyorder/romances/jaheira_old.baf~ 
+                    ~ToBR/anyorder/romances/jaheira_new.baf~
+COPY_EXISTING ~vico25.bcs~ ~override~
+  REPLACE_BCS_BLOCK ~ToBR/anyorder/romances/viconia_old.baf~ 
+                    ~ToBR/anyorder/romances/viconia_new.baf~
+
+//And replace them as banters
+COMPILE ~ToBR/anyorder/romances/Baerie25.d~ ~ToBR/anyorder/romances/Banome25.d~
+        ~ToBR/anyorder/romances/Bjahei25.d~ ~ToBR/anyorder/romances/Bvicon25.d~
+
+/////////////////////////////////
+//////////Amkethran - 7//////////
+/////////////////////////////////
+              
+BEGIN ~Amkethran~
+GROUP ~Places~
+
+// Scripts -- triggers
+
+COMPILE ~ToBR/Amkethran/scripts/ITWGAM.baf~
+
+// Adds a ladder
+
+COPY_EXISTING ~AR5500.are~ ~override~ // copy over the area you want to edit
+
+  READ_SHORT    0x5c ~trigger_off~	// One thing that took me a while to figure out
+  READ_SHORT    0x5a ~trigger_num~	// is that in a .tp2 file "0x10" means the number
+									// 10 in hexidecimal (or 16 in regular numbers)	
+  READ_SHORT    0x7c ~vert_off~
+  READ_SHORT    0x80 ~vert_num~
+  
+  READ_SHORT    0x60 ~spaw_off~
+  READ_SHORT    0x68 ~entr_off~
+  READ_SHORT    0x70 ~cont_off~
+  READ_SHORT	0x78 ~item_off~
+  READ_SHORT    0x84 ~ambi_off~
+  READ_SHORT    0x88 ~vari_off~
+  READ_SHORT    0xa0 ~bitm_off~
+  
+  READ_SHORT    0xa8 ~door_off~
+  READ_SHORT    0xa4 ~door_num~
+  
+  READ_SHORT    0xb0 ~anim_off~
+  READ_SHORT    0xb8 ~tile_off~
+  READ_SHORT    0xbc ~song_off~
+  READ_SHORT    0xc0 ~rest_off~
+  READ_SHORT    0xc4 ~auto_off~
+
+// Ok, time to make our changes.  We want to add a new trigger and we want to add its vertices to
+// the area.  
+
+// Adding the trigger
+
+  WRITE_SHORT 	0x5a 		trigger_num + 1		 //Increases the triggers by one
+  SET  ins_off = ( trigger_off + (0xc4 * trigger_num) )  //Find the spot in the file that's at the end of the triggers
+  INSERT_BYTES  ins_off 	0xc4			 //Adds in a trigger's worth of space at that spot.
+							 //If we don't add in more space it'll write over other parts
+							 //of the file
+
+// Move the offsets after the trigger down by the amount of space we added in
+
+  WRITE_SHORT   0x60 	spaw_off  + 0xc4
+  WRITE_SHORT   0x68 	entr_off  + 0xc4
+  WRITE_SHORT   0x70 	cont_off  + 0xc4
+  WRITE_SHORT   0x78 	item_off  + 0xc4
+  WRITE_SHORT   0x84 	ambi_off  + 0xc4
+  WRITE_SHORT   0xb8 	tile_off  + 0xc4
+
+// The next offset is the vertice offset.  This is the other place that we'll edit things.
+
+// First, we find out how many of the vertices in the area are trigger vertices.
+
+  SET ~total_tv_num~ = 0
+  
+  FOR (i = 0; i < trigger_num; i += 1) BEGIN			    // Go through all the triggers
+    READ_SHORT   trigger_off + (i * 0xc4) + 0x2a  ~tv_num~	// Read how many triggers they have
+    SET ~total_tv_num~ = total_tv_num + tv_num			    // Add them all up
+  END  
+     
+  SET ~more_v~ = 4					// This is how many vertices you want to add.  
+									//   I added four.
+  WRITE_SHORT   0x7c 	vert_off  + 0xc4		// This moves the vertice offset by the amount 
+												//   of space you added for the trigger
+  WRITE_SHORT   0x80 	vert_num  + more_v		// And adds in your new vertices
+  
+  SET ~ins_v_off~ = (vert_off + 0xc4) + total_tv_num * 4// This figures out where to add in space for
+														//   the new vertices.  It's at the end of all the
+														//   other trigger vertices. 
+  INSERT_BYTES ins_v_off  	~more_v~ * 4		// This adds in four vertices worth of space.
+   
+// Shift door vertices
+  
+  FOR (i = 0; i < door_num; i += 1) BEGIN		// Go through all the doors.
+    READ_SHORT  (%door_off% + 0xc4) + (i * 0xc8) + 0x2c    ~open_num~  //# open vertices
+    READ_SHORT  (%door_off% + 0xc4) + (i * 0xc8) + 0x34    ~clos_num~  //# closed vertices
+    READ_SHORT  (%door_off% + 0xc4) + (i * 0xc8) + 0x48    ~imcl_num~  //# impeded, closed
+    READ_SHORT  (%door_off% + 0xc4) + (i * 0xc8) + 0x50    ~imop_num~  //# impeded, open
+    
+    WRITE_SHORT (%door_off% + 0xc4) + (i * 0xc8) + 0x2c	   %open_num% + %more_v% //And change it by the number of vertices
+    WRITE_SHORT (%door_off% + 0xc4) + (i * 0xc8) + 0x34	   %clos_num% + %more_v%
+    WRITE_SHORT (%door_off% + 0xc4) + (i * 0xc8) + 0x48    %imcl_num% + %more_v%
+    WRITE_SHORT (%door_off% + 0xc4) + (i * 0xc8) + 0x50    %imop_num% + %more_v%
+  END									       	
+   
+// Now we can continue moving the offsets of all the area features that come after vertices.  This time
+// we move them by the space we made for the trigger plus the space we made for the vertices.
+
+  WRITE_SHORT   0xa8 	%door_off%  + 0xc4 
+  WRITE_SHORT   0x88 	%vari_off% 	+ 0xc4   
+  WRITE_SHORT   0xa0 	%bitm_off% 	+ 0xc4 + 4 * %more_v%  
+  WRITE_SHORT   0xb0 	%anim_off% 	+ 0xc4 + 4 * %more_v%  
+  WRITE_SHORT   0xbc 	%song_off% 	+ 0xc4 + 4 * %more_v%  
+  WRITE_SHORT   0xc0 	%rest_off% 	+ 0xc4 + 4 * %more_v%  
+  WRITE_SHORT   0xc4 	%auto_off% 	+ 0xc4 + 4 * %more_v%  
+  
+// Now we can start writing the instructions for making our trigger into the black space we made.
+    
+  WRITE_ASCII %ins_off%		~Ladder~ 		// Name of the trigger
+  WRITE_SHORT %ins_off% + 0x20 	1 			// What kind of trigger it is
+  WRITE_SHORT %ins_off% + 0x22	2668			// The smallest x value of all the vertices
+  WRITE_SHORT %ins_off% + 0x24	1139			// The smallest y value of all the vertices
+  WRITE_SHORT %ins_off% + 0x26	2724			// The biggest x value of all the vertices
+  WRITE_SHORT %ins_off% + 0x28 	1282	    		// The biggest y value of all the vertices
+  WRITE_SHORT %ins_off% + 0x2a	%more_v%		// # vertices for this trigger
+  WRITE_SHORT %ins_off% + 0x2c	%total_tv_num%		// where to look for the vertices
+  WRITE_SHORT %ins_off% + 0x34  8			// what the tooltip looks like
+  WRITE_ASCII %ins_off% + 0x7c	~ITWGAM~		// the name of the script associated with your trigger
+  
+// And now we write in what our vertices are into the blank space we made for them.  Remember to do it
+// clockwise.
+
+  WRITE_SHORT %ins_v_off%   + 0x00	2668		// 1st x coord
+  WRITE_SHORT %ins_v_off%   + 0x02	1182		// 1st y coord
+  WRITE_SHORT %ins_v_off%   + 0x04	2715		// 2st x coord
+  WRITE_SHORT %ins_v_off%   + 0x06	1139		// 2st y coord
+  WRITE_SHORT %ins_v_off%   + 0x08	2724	    // 3rd x coord
+  WRITE_SHORT %ins_v_off%   + 0x0a	1262		// 3rd y coord
+  WRITE_SHORT %ins_v_off%   + 0x0c	2692  		// 4th x coord
+  WRITE_SHORT %ins_v_off%   + 0x0e	1282		// 4th y coord
+
+///////////////////////////////////
+//////////Fire Temple - 8//////////
+/////////////////////////////////// 
+
+BEGIN ~Fire Temple~
+GROUP ~Places~
+
+// Dialogue
+
+COMPILE ~ToBR/firetemple/dialogue/ysgp04.d~
+
+// Add a dialogue file to Chinchilla
+
+COPY_EXISTING ~YSGP04.cre~ ~override~
+  WRITE_ASCII 0x2cc ~YSGP04~
+  
+// Scripts -- Creatures
+
+EXTEND_BOTTOM ~YSGP04.bcs~ ~ToBR/firetemple/scripts/ysgp04.baf~
+
+// Remove items from fire pits
+
+COPY_EXISTING ~AR5201.are~ ~override~
+  READ_LONG  0x70  ~cont_off~
+  READ_SHORT 0x74  ~cont_num~
+  READ_SHORT 0x76  ~item_num~
+  READ_LONG  0x78  ~item_off~
+  
+  READ_LONG  0x7c  ~vert_off~
+  READ_LONG  0x84  ~ambi_off~
+  READ_LONG  0x88  ~vari_off~
+  READ_LONG  0xa0  ~expl_off~
+  READ_LONG  0xa8  ~door_off~
+  READ_LONG  0xb0  ~anim_off~
+  READ_LONG  0xb8  ~tile_off~
+  READ_LONG  0xbc  ~song_off~
+  READ_LONG  0xc0  ~rest_off~
+  READ_LONG  0xc4  ~auto_off~
+  
+  FOR (i = 0 ; i < cont_num ; i += 1) BEGIN
+// how many items have come before
+    READ_SHORT %cont_off% + (i * 0xc0) + 0x40 ~first_item_index~
+// how many items in this container
+    READ_SHORT %cont_off% + (i * 0xc0) + 0x44 ~cont_item_num~
+// delete the items
+    DELETE_BYTES %item_off% + (%first_item_index% * 0x14) + 0x14 0x28
+// change the item number in this container
+    WRITE_SHORT %cont_off% + (i * 0xc0) + 0x44 %cont_item_num% - 2
+// change the item indexes of the next containers
+
+    FOR (j = i + 1; j < cont_num ; j += 1) BEGIN
+      READ_SHORT  %cont_off% + (j * 0xc0) + 0x40 ~next_item_index~
+      WRITE_SHORT %cont_off% + (j * 0xc0) + 0x40 %next_item_index% - 2
+    END
+    
+  END
+// change the overall item number
+	WRITE_SHORT 0x76 %item_num% - (2 * %cont_num%)
+// change the offsets
+    WRITE_LONG  0x84  %ambi_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xb8  %tile_off% - (0x28 * %cont_num%)
+    
+    WRITE_LONG  0x7c  %vert_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xa8  %door_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0x88  %vari_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xa0  %expl_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xb0  %anim_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xbc  %song_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xc0  %rest_off% - (0x28 * %cont_num%)
+    WRITE_LONG  0xc4  %auto_off% - (0x28 * %cont_num%)
+
+// Add the items into Berenn and Imix        
+COPY_EXISTING ~hgber01.cre~ ~override~
+  ADD_CRE_ITEM ~SW2H21~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP TWOHANDED
+  
+COPY_EXISTING ~ELEMIMIX.cre~ ~override~
+  ADD_CRE_ITEM ~BELT11~ #0 #0 #0 ~NONE~ ~BELT~
+
+
+                
+/////////////////////////////
+//////////Oasis - 9//////////
+/////////////////////////////
+
+BEGIN ~Oasis~
+GROUP ~Places~
+
+// Creatures
+
+COPY ~ToBR/Oasis/cre/WGsold01.cre~ ~override~
+  SAY NAME1 ~Mercenary~
+  SAY NAME2 ~Mercenary~
+COPY ~ToBR/Oasis/cre/WGmerc01.cre~ ~override~
+  SAY NAME1 ~Merchant~
+  SAY NAME2 ~Merchant~
+COPY ~ToBR/Oasis/cre/WGcapt01.cre~ ~override~
+  SAY NAME1 ~Travelling Knight~
+  SAY NAME2 ~Travelling Knight~
+COPY ~ToBR/Oasis/cre/WGcapt02.cre~ ~override~
+  SAY NAME1 ~Travelling Soldier~
+  SAY NAME2 ~Travelling Soldier~
+COPY ~ToBR/Oasis/cre/WGcler01.cre~ ~override~
+  SAY NAME1 ~Travelling Cleric~
+  SAY NAME2 ~Travelling Cleric~
+  
+// Dialogues
+
+COMPILE ~ToBR/Oasis/dialogue/WGsold01.d~  ~ToBR/Oasis/dialogue/WGmerc01.d~
+		~ToBR/Oasis/dialogue/WGcapt01.d~  ~ToBR/Oasis/dialogue/WGcapt02.d~
+		
+// Scripts -- Areas
+EXTEND_BOTTOM ~AR6300.bcs~ ~ToBR/Oasis/scripts/AR6300.baf~
+
+// Scripts -- Creatures
+COMPILE ~ToBR/Oasis/scripts/WGsold01.baf~
+
+// Changes actors in Oasis
+COPY_EXISTING AR6300.are override
+  READ_LONG 0x54 act_off
+  READ_SHORT 0x58 act_num
+	
+  FOR (i = 1 ; i <= act_num ; i += 1) BEGIN
+    READ_ASCII act_off + 0x110 * i - 0x90 cre
+// Get rid of most of the actors
+    PATCH_IF  ~%cre%~ STRING_EQUAL_CASE AMTCLE01 BEGIN // Cleric
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE AMTGEN01 BEGIN // Jamis
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE AMTARC01 BEGIN // Archer
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE AMTMAG01 BEGIN // Mage
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE AMTPIK01 BEGIN // Pikeman
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+// But change some of them
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE AMTCAP01 BEGIN // Captain
+      WRITE_ASCII act_off + 0x110 * (i - 1) 			~Mercenary~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 			WGsold01  #8
+      WRITE_ASCII act_off + 0x110 * (i - 1) + 0x050		WGsold01
+      WRITE_ASCII act_off + 0x110 * (i - 1) + 0x070 	WTARSGT
+    END
+  END
+  
+// Dependent on SimDing0's Improved Oasis
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~D0SHIELD.cre~) 
+  THEN BEGIN
+  
+  COPY_EXISTING ~AR6300.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("D0Spawn6300","GLOBAL",0)~
+      					~Global("D0Spawn6300","GLOBAL",0)
+      					 Global("SaradushSacked","GLOBAL",1)~
+    COMPILE_BAF_TO_BCS
+  
+  END
+
+////////////////////////////////
+//////////Saradush - 10/////////
+////////////////////////////////
+
+BEGIN ~Saradush~ 
+GROUP ~Places~
+
+// Creatures
+COPY ~ToBR/Saradush/cre/mir.CRE~  ~override/mir.CRE~       
+  SAY NAME1 ~Bhaalspawn~ 
+  SAY NAME2 ~Bhaalspawn~ 
+
+COPY ~ToBR/Saradush/cre/eleni.CRE~ ~override/eleni.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/pugar.cre~ ~override/pugar.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/hessa.cre~ ~override/hessa.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/tyrell.cre~ ~override/tyrell.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/adellie.cre~ ~override/adellie.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/bedo.cre~ ~override/bedo.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/burach.cre~ ~override/burach.cre~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+
+COPY ~ToBR/Saradush/cre/beth.cre~ ~override~
+  SAY NAME1 ~Bhaalspawn~
+  SAY NAME2 ~Bhaalspawn~
+  
+COPY ~ToBR/Saradush/cre/vanya.cre~ ~override~
+  SAY NAME1 ~Vanya~
+  SAY NAME2 ~Vanya~
+
+//Dialogues
+COMPILE ~ToBR/Saradush/dialogue/mir.d~ ~ToBR/Saradush/dialogue/eleni.d~ 
+	  ~ToBR/Saradush/dialogue/pugar.d~ ~ToBR/Saradush/dialogue/hessa.d~
+	  ~ToBR/Saradush/dialogue/tyrell.d~ ~ToBR/Saradush/dialogue/Adellie.d~
+	  ~ToBR/Saradush/dialogue/bedo.d~	~ToBR/Saradush/dialogue/burach.d~
+	  ~ToBR/Saradush/dialogue/beth.d~   ~ToBR/Saradush/dialogue/vanya.d~
+
+COMPILE	~ToBR/Saradush/dialogue/25spell.d~ ~ToBR/Saradush/dialogue/Orphan1.d~
+
+//Scripts -- Areas
+
+//Giving the temple a bcs
+COPY_EXISTING ~AR5004.ARE~ ~override~
+  WRITE_ASCII 0x94 ~AR5004~ #8 
+BUT_ONLY_IF_IT_CHANGES
+
+EXTEND_BOTTOM ~ar5000.bcs~ ~ToBR/Saradush/scripts/AR5000.baf~
+EXTEND_BOTTOM ~ar5003.bcs~ ~ToBR/Saradush/scripts/AR5003.baf~
+EXTEND_BOTTOM ~ar5004.bcs~ ~ToBR/Saradush/scripts/AR5004.baf~
+EXTEND_BOTTOM ~AR5203.bcs~ ~ToBR/Saradush/scripts/AR5203.baf~
+
+//Scripts -- Creatures
+COMPILE ~ToBR/Saradush/scripts/warrior.baf~ ~ToBR/Saradush/scripts/pugar.baf~
+	    ~ToBR/Saradush/scripts/bedo.baf~
+
+EXTEND_TOP ~sarfakie.bcs~ ~ToBR/Saradush/scripts/sarfakie.baf~
+EXTEND_TOP ~sarfaki2.bcs~ ~ToBR/Saradush/scripts/sarfaki2.baf~
+
+////////////////////////////////////////
+//////////Saradush Sewers - 11//////////
+////////////////////////////////////////
+
+BEGIN ~Saradush Sewers~
+GROUP ~Places~
+FORBID_COMPONENT "setup-ToBR.tp2" "5" "You have already installed this component with Pocket Plane."
+
+INCLUDE ~ToBR/sewers/sewers.tph~  
+
+/////////////////////////////////////////////
+//////////Cleansing the Temple - 12//////////
+/////////////////////////////////////////////
+
+BEGIN ~Cleansing the Temple~
+GROUP ~Quests~
+
+//Creatures
+COPY ~ToBR/Cleansing/cre/WGcleric.cre~ ~override~
+  SAY NAME1 ~Cleric of Kelemvor~
+  SAY NAME2 ~Cleric of Kelemvor~
+COPY ~ToBR/Cleansing/cre/WGdestru.cre~ ~override~
+
+//Dialogues
+COMPILE ~ToBR/Cleansing/dialogue/WGcleric.d~
+
+//Items
+COPY ~ToBR/Cleansing/items/WGholy.itm~ ~override~
+  SAY NAME1 ~Bottle of Cleansing~
+  SAY NAME2 ~Bottle of Cleansing~
+  SAY DESC ~This bottle is filled with a glowing liquid.  Looking at it you feel somehow comforted.~
+	
+COPY ~ToBR/Witch/items/WGneck.itm~ ~override~
+  SAY NAME1 ~Beaded Necklace~
+  SAY NAME2 ~Beaded Necklace~ 
+  SAY DESC ~A simple necklace remarkable only for two things; its gaudiness and its sentimental value to Carin.~
+  
+	
+//Scripts -- Areas
+//EXTEND_BOTTOM ~AR5202.bcs~ ~ToBR/Cleansing/scripts/AR5202.baf~
+EXTEND_BOTTOM ~AR6400.bcs~ ~ToBR/Cleansing/scripts/AR6400.baf~
+
+// Scripts -- Creatures
+COMPILE ~ToBR/Cleansing/scripts/WGdestru.baf~
+COMPILE ~ToBR/Cleansing/scripts/WGcarin.baf~
+
+// Scripts -- Triggers
+EXTEND_BOTTOM ~GP6400B.bcs~ ~ToBR/Cleansing/scripts/GP6400B.baf~
+COMPILE ~ToBR/Cleansing/scripts/ITTOBR.baf~ 
+
+// Add the trigger to the altar
+
+COPY_EXISTING ~AR5202.are~ ~override~
+
+// Read a bunch of offsets
+  READ_SHORT    0x5c ~trigger_off~
+  READ_SHORT    0x5a ~trigger_num~
+
+  READ_SHORT    0x7c ~vert_off~
+  READ_SHORT    0x80 ~vert_num~
+  
+  READ_SHORT    0x60 ~spaw_off~
+  READ_SHORT    0x68 ~entr_off~
+  READ_SHORT    0x70 ~cont_off~
+  READ_SHORT	0x74 ~cont_num~
+  READ_SHORT	0x78 ~item_off~
+  READ_SHORT    0x84 ~ambi_off~
+  READ_SHORT    0x88 ~vari_off~
+  READ_SHORT    0xa0 ~bitm_off~
+  READ_SHORT    0xa8 ~door_off~
+  READ_SHORT    0xb0 ~anim_off~
+  READ_SHORT    0xb8 ~tile_off~
+  READ_SHORT    0xbc ~song_off~
+  READ_SHORT    0xc0 ~rest_off~
+  READ_SHORT    0xc4 ~auto_off~
+
+// I'm going to insert bytes in two places:  where I put the new trigger 
+// and where I put the new vertices.  Every other offset needs to be moved
+// accordingly.
+
+// the trigger
+  WRITE_SHORT 0x5a trigger_num + 1						 //increase triggers by one
+  SET  ins_off = ( trigger_off + (0xc4 * trigger_num) )  //make space at end of current triggers
+    INSERT_BYTES  ins_off 	0xc4
+
+// the offsets after trigger
+  WRITE_SHORT   0x60 	spaw_off  + 0xc4
+  WRITE_SHORT   0x68 	entr_off  + 0xc4
+  WRITE_SHORT   0x70 	cont_off  + 0xc4
+  WRITE_SHORT   0x78 	item_off  + 0xc4
+  WRITE_SHORT   0x84 	ambi_off  + 0xc4
+  WRITE_SHORT   0xb8 	tile_off  + 0xc4
+
+// find how many of the vertices are trigger vertices
+  SET ~total_tv_num~ = 0
+  
+  FOR (i = 0; i < trigger_num; i += 1) BEGIN
+    READ_SHORT   trigger_off + (i * 0xc4) + 0x2a  	~tv_num~
+    SET ~total_tv_num~ = total_tv_num + tv_num
+  END  
+    
+// the vertices
+  SET ~more_v~ = 4
+  WRITE_SHORT   0x7c 	vert_off  + 0xc4
+  WRITE_SHORT   0x80 	vert_num  + more_v
+  
+  SET ~ins_v_off~ = (vert_off + 0xc4) + total_tv_num * 4
+  INSERT_BYTES ins_v_off  	0x10
+   
+// set container vertices
+  FOR (i = 0; i < cont_num; i += 1) BEGIN
+    READ_SHORT  (%cont_off% + 0xc4) + (i * 0xc0) + 0x50 	~cv_num~
+    WRITE_SHORT (%cont_off% + 0xc4) + (i * 0xc0) + 0x50		%cv_num% + %more_v%
+  END
+   
+// the offsets after vertices
+  WRITE_SHORT   0xa8 	%door_off%  + 0xc4 
+  WRITE_SHORT   0x88 	%vari_off% 	+ 0xc4 + 4*%more_v%  
+  WRITE_SHORT   0xa0 	%bitm_off% 	+ 0xc4 + 4*%more_v%  
+  WRITE_SHORT   0xb0 	%anim_off% 	+ 0xc4 + 4*%more_v%  
+  WRITE_SHORT   0xbc 	%song_off% 	+ 0xc4 + 4*%more_v%  
+  WRITE_SHORT   0xc0 	%rest_off% 	+ 0xc4 + 4*%more_v%  
+  WRITE_SHORT   0xc4 	%auto_off% 	+ 0xc4 + 4*%more_v%  
+  
+// Fill in the triggers    
+  WRITE_ASCII %ins_off%			~Altar~ 		// Name
+  WRITE_SHORT %ins_off% + 0x20 	1 				// Info trigger
+  WRITE_SHORT %ins_off% + 0x22	821				// Left
+  WRITE_SHORT %ins_off% + 0x24	839				// Top
+  WRITE_SHORT %ins_off% + 0x26	938				// Right
+  WRITE_SHORT %ins_off% + 0x28 	924	    		// Bottom
+  WRITE_SHORT %ins_off% + 0x2a	%more_v%		// # vertices for this trigger
+  WRITE_SHORT %ins_off% + 0x2c	%total_tv_num%	// vertices offset (# vertices total)
+  WRITE_SHORT %ins_off% + 0x34  8				// tooltip
+  WRITE_ASCII %ins_off% + 0x7c	~ITTOBR~		// script name
+  
+// Fill in the vertices
+  WRITE_SHORT %ins_v_off%   + 0x00	857		// 1st x
+  WRITE_SHORT %ins_v_off%   + 0x02	924		// 1st y
+  WRITE_SHORT %ins_v_off%   + 0x04	821		// 2st x
+  WRITE_SHORT %ins_v_off%   + 0x06	903		// 2st y
+  WRITE_SHORT %ins_v_off%   + 0x08	907	    // 3st x
+  WRITE_SHORT %ins_v_off%   + 0x0a	839		// 3st y
+  WRITE_SHORT %ins_v_off%   + 0x0c	938  	// 4st x
+  WRITE_SHORT %ins_v_off%   + 0x0e	862		// 4st y 
+   
+//////////////////////////////////////////////////
+//////////The Witch of the Wealdath - 13//////////
+//////////////////////////////////////////////////
+	
+BEGIN ~The Witch of the Wealdath~
+GROUP ~Quests~
+REQUIRE_COMPONENT "setup-ToBR.tp2" 12 "You must have the Cleansing the Temple component installed!"
+REQUIRE_COMPONENT "setup-ToBR.tp2" 5 "You must have the Pocket Plane component installed!"
+
+// Spells
+	  COPY ~ToBR/Witch/spells/SPPR127.spl~ ~override~
+	    SAY NAME1 ~Polymorph: Deer~
+	    WRITE_SHORT 0x34 1				// makes it a lvl 1 spell
+	  APPEND ~Spell.ids~ ~1127 CLERIC_DEER~
+	
+// Creatures
+      COPY ~ToBR/Witch/cre/WGwitch.cre~ ~override~
+        SAY NAME1 ~Witch of the Wealdath~
+        SAY NAME2 ~Witch of the Wealdath~
+       
+// Dialogue
+      COMPILE ~ToBR/Witch/dialogue/WGwitch.d~
+         
+// Scripts -- Areas
+	  EXTEND_TOP ~ARTOBR.bcs~ ~ToBR/Witch/scripts/ARTOBR.baf~
+
+// Scripts -- Creatures
+	  COMPILE ~ToBR/Witch/scripts/WGwitch.baf~
+
+  
+ 

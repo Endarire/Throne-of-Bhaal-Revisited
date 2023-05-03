@@ -1,0 +1,6 @@
+IF
+	RealGlobalTimerExpired("WGfire","AR5203")
+THEN
+	RESPONSE #100
+	SetSequence(SEQ_SHOOT)
+END

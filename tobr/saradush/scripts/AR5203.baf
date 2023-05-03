@@ -1,0 +1,9 @@
+IF 
+	Global("WGvanya","GLOBAL",1)
+	GlobalGT("YagaShuraHeart","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WGvanya","GLOBAL",2)
+		CreateCreature("Vanya",[3257.281],0)
+		Continue()
+END

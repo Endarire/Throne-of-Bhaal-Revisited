@@ -1,0 +1,13 @@
+IF
+	See("sarfaki2")
+THEN
+	RESPONSE #100
+		Attack("sarfaki2")
+END
+
+IF
+	See("sarfakie")
+THEN
+	RESPONSE #100
+		Attack("sarfakie")
+END

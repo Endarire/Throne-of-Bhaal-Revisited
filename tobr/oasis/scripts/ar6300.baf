@@ -1,0 +1,53 @@
+IF
+	Global("CreatedPeople","AR6300",0)
+THEN
+	RESPONSE #100
+	SetGlobal("CreatedPeople","AR6300",1)
+	CreateCreature("DEER01",[1822.901],0)
+	CreateCreature("DEER01",[1822.901],0)
+	CreateCreature("WGmerc01",[1273.765],0)
+	CreateCreature("WGmerc01",[853.630],0)
+	CreateCreature("WGcapt01",[1347.451],0)
+	CreateCreature("WGcapt02",[1313.483],0)
+	CreateCreature("WGcapt02",[1378.404],0)
+	CreateCreature("WGcler01",[1298.421],0)
+END
+
+
+IF
+	Global("SaradushSacked","GLOBAL",1)
+	Global("CreatedArmy","AR6300",0)
+THEN
+	RESPONSE #100
+	SetGlobal("CreatedArmy","AR6300",1)
+	CreateCreature("AMTCLE01",[521.473],0)
+	CreateCreature("AMTCLE01",[2010.408],0)
+	CreateCreature("AMTGEN01",[468.749],0)
+	CreateCreature("AMTARC01",[1499.454],0)
+	CreateCreature("AMTARC01",[379.516],0)
+	CreateCreature("AMTARC01",[1442.726],0)
+	CreateCreature("AMTARC01",[1368.900],0)
+	CreateCreature("AMTARC01",[1380.1003],0)
+	CreateCreature("AMTARC01",[1772.302],0)
+	CreateCreature("AMTARC01",[1904.339],0)
+	CreateCreature("AMTARC01",[1990.519],0)
+	CreateCreature("AMTARC01",[1620.842],0)
+	CreateCreature("AMTARC01",[538.953],0)
+	CreateCreature("AMTARC01",[724.438],0)
+	CreateCreature("AMTARC01",[1439.522],0)
+	CreateCreature("AMTARC01",[463.486],0)
+	CreateCreature("AMTARC01",[503.1030],0)
+	CreateCreature("AMTMAG01",[533.549],0)
+	CreateCreature("AMTMAG01",[1981.358],0)
+	CreateCreature("AMTCAP01",[456.669],0)
+	CreateCreature("AMTCAP01",[1825.355],0)
+	CreateCreature("AMTCAP01",[551.785],0)
+	CreateCreature("AMTPIK01",[579.884],0)
+	CreateCreature("AMTPIK01",[1377.516],0)
+	CreateCreature("AMTPIK01",[1313.793],0)
+	CreateCreature("AMTPIK01",[1369.444],0)
+	CreateCreature("AMTPIK01",[1766.365],0)
+	CreateCreature("AMTPIK01",[1799.407],0)
+	CreateCreature("AMTPIK01",[1787.530],0)
+	CreateCreature("AMTPIK01",[1817.570],0)
+END

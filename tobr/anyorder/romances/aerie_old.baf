@@ -1,0 +1,16 @@
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("AerieRomance","GLOBAL")
+	Global("AerieRomanceActive","GLOBAL",2)
+	See(Player1)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	CombatCounter(0)
+	Global("SaradushSacked","GLOBAL",1)
+	Global("ExpLoveTalk","LOCALS",9)
+THEN
+	RESPONSE #100
+		IncrementGlobal("ExpLoveTalk","LOCALS",1)
+		PlaySong(34)
+		Interact(Player1)
+END

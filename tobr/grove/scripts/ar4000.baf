@@ -1,0 +1,16 @@
+IF
+	Global("Suelle3Exists","AR4000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Suelle3Exists","AR4000",1)
+		CreateCreature("WGelle",[1014.1822],12)
+END
+
+IF
+	Global("SuelleBegin","AR4000",3)
+		
+THEN
+	RESPONSE #100
+		SetGlobal("SuelleBegin","AR4000",4)
+		CreateCreature("WGelle",[400.459],12)
+END

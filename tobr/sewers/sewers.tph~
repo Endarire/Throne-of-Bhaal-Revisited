@@ -1,0 +1,138 @@
+// Change gibberlings to kobolds
+COPY_EXISTING ~AR5013.are~ ~override~
+  WRITE_ASCII 0x1ee0 RDKOBOLD
+  
+// Copy over creatures and items
+COPY ~ToBR/sewers/cre/WGshadld.cre~ ~override~
+	SAY NAME1 ~Shade Lord~
+	SAY NAME2 ~Shade Lord~
+COPY ~ToBR/sewers/cre/WGshfi01.cre~ ~override~
+COPY ~ToBR/sewers/cre/WGshfi02.cre~ ~override~
+COPY ~ToBR/sewers/cre/WGshfi03.cre~ ~override~
+COPY ~ToBR/sewers/cre/WGshfi04.cre~ ~override~
+COPY ~ToBR/sewers/cre/WGcarrio.cre~ ~override~
+
+// Creature's dialogue
+COMPILE ~ToBR/sewers/dialogue/WGshadld.d~
+
+// Edit Sewers so that Yaga Shura's minions are gone and shadows take their place
+// (also stolen, this time from UB)
+
+COPY_EXISTING AR5013.are override
+  READ_LONG 0x54 act_off
+  READ_SHORT 0x58 act_num
+	
+  FOR (i = 1 ; i <= act_num ; i += 1) BEGIN
+    READ_ASCII act_off + 0x110 * i - 0x90 cre
+// Here's my changes -- first, get rid of Yaga Shura's minions
+    PATCH_IF  ~%cre%~ STRING_EQUAL_CASE SEWYAG01 BEGIN
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWYAG03 BEGIN
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWYAG04 BEGIN
+      DELETE_BYTES act_off + 0x110 * (i - 1) 0x110
+      INSERT_BYTES act_off + 0x110 * (i - 1) 0x110
+// Now replace some with shadows
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWORO01 BEGIN 
+      WRITE_ASCII act_off + 0x110 * i - 0x110 ~Shade Lord~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 WGSHADLD  #8
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWDUE01 BEGIN 
+      WRITE_ASCII act_off + 0x110 * i - 0x110 ~Shadow Fiend~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 WGSHFI01  #8
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWDUE02 BEGIN 
+      WRITE_ASCII act_off + 0x110 * i - 0x110 ~Shadow Fiend~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 WGSHFI01  #8
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWARC01 BEGIN 
+      WRITE_ASCII act_off + 0x110 * i - 0x110 ~Devil Shade~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 WGSHFI02  #8
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWARC02 BEGIN 
+      WRITE_ASCII act_off + 0x110 * i - 0x110 ~Devil Shade~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 WGSHFI02  #8
+// And some with crawlers      
+    END ELSE PATCH_IF ~%cre%~ STRING_EQUAL_CASE SEWYAG02 BEGIN
+      WRITE_ASCII act_off + 0x110 * i - 0x110 ~Mutated Crawler~ #32
+      WRITE_ASCII act_off + 0x110 * i - 0x090 WGCARRIO  #8
+    END
+  END
+
+// Yaga Shura stuff  
+  
+ACTION_IF FILE_EXISTS ~override/WGneutra.cre~
+	THEN BEGIN
+	EXTEND_BOTTOM ~AR5013.bcs~ ~ToBR/sewers/scripts/AR5013_yaga.baf~
+    END
+    
+// Add a spawn point
+
+COPY_EXISTING ~AR5013.are~ ~override~ // copy over the area you want to edit
+
+// Read a bunch of offsets:  These tell the game where to start looking for
+// the various features of the area.  I named them with the first four letters
+// of their name in Near Infinity. Notice that the trigger feature and the vertice
+// feature include the number value as well as the offset value.  These two features
+// will be the ones we are editting.
+
+  READ_SHORT    0x60 ~spaw_off~
+  READ_SHORT	0x64 ~spaw_num~
+  
+  READ_SHORT    0x68 ~entr_off~
+  READ_SHORT    0x70 ~cont_off~
+  READ_SHORT	0x78 ~item_off~
+  READ_SHORT    0x84 ~ambi_off~
+  READ_SHORT    0x88 ~vari_off~
+  READ_SHORT    0xa0 ~bitm_off~
+  READ_SHORT    0xa8 ~door_off~
+  READ_SHORT    0xb0 ~anim_off~
+  READ_SHORT    0xb8 ~tile_off~
+  READ_SHORT    0xbc ~song_off~
+  READ_SHORT    0xc0 ~rest_off~
+  READ_SHORT    0xc4 ~auto_off~
+
+// Adding the spawn point
+
+  WRITE_SHORT 	0x64 		spaw_num + 1		   //Increases the spawns by one
+  SET  ins_off = ( spaw_off + (0xc8 * spaw_num) )  //Find the spot in the file that's at the end of the spawns
+  INSERT_BYTES  %ins_off% 	0xc4			       //Adds in a spawn point's worth of space at that spot.
+// Move the offsets after the spawn point down by the amount of space we added in
+
+  WRITE_SHORT    0x68 entr_off + 0xc4
+  WRITE_SHORT    0x70 cont_off + 0xc4
+  WRITE_SHORT	 0x78 item_off + 0xc4
+  WRITE_SHORT    0x84 ambi_off + 0xc4
+  WRITE_SHORT    0x88 vari_off + 0xc4
+  WRITE_SHORT    0xa0 bitm_off + 0xc4
+  WRITE_SHORT    0xa8 door_off + 0xc4
+  WRITE_SHORT    0xb0 anim_off + 0xc4
+  WRITE_SHORT    0xb8 tile_off + 0xc4
+  WRITE_SHORT    0xbc song_off + 0xc4
+  WRITE_SHORT    0xc0 rest_off + 0xc4
+
+// Now we can start writing the instructions for making our spawn point into the black space we made.
+    
+  WRITE_ASCII %ins_off%		~Spawn Point WG~ 	// Name of the spawn point
+  WRITE_SHORT %ins_off% + 0x20 	1570 			// X coord of point
+  WRITE_SHORT %ins_off% + 0x22	1574 			// Y coord of point
+  WRITE_ASCII %ins_off% + 0x24	~RDSHAD2~		// The kinds of creatures it spawns
+  WRITE_SHORT %ins_off% + 0x74	1			    // num creatures 
+  WRITE_SHORT %ins_off% + 0x76 	2	    	    // spawn frequency
+  WRITE_LONG  %ins_off% + 0x78	65540		    // seconds between spawning  
+  WRITE_SHORT %ins_off% + 0x86	1		        // max spawned creatures
+  WRITE_BYTE  %ins_off% + 0x8a  0b11111111	    // present at flags 1
+  WRITE_BYTE  %ins_off% + 0x8b  0b11111111      // present at flags 2
+  WRITE_BYTE  %ins_off% + 0x8c  0b11111111      // present at flags 3
+
+  // Unknowns that seem important somehow
+  WRITE_BYTE %ins_off% + 0x7c  0b11101000
+  WRITE_BYTE %ins_off% + 0x7d  0b00000011  
+  WRITE_BYTE %ins_off% + 0x80  0b11101000
+  WRITE_BYTE %ins_off% + 0x81  0b00000011
+  WRITE_BYTE %ins_off% + 0x82  0b11101000
+  WRITE_BYTE %ins_off% + 0x83  0b00000011
+  WRITE_BYTE %ins_off% + 0x84  0b00000001
+  
+  WRITE_BYTE %ins_off% + 0x88  0b11111111
+  WRITE_BYTE %ins_off% + 0x89  0b11111111
+  
+  WRITE_BYTE %ins_off% + 0x8e  0b01100100

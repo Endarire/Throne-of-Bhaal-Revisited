@@ -1,0 +1,13 @@
+IF
+	Global("ExpLoveTalk","LOCALS",7)
+	InParty(Myself)
+	Global("JaheiraRomanceActive","GLOBAL",2)
+	See(Player1)
+	PartyRested()
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("ExpLoveTalk","LOCALS",3)
+		PlaySong(36)
+		Interact(Player1)
+END

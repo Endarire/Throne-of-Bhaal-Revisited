@@ -1,0 +1,8 @@
+IF
+	Global("Spawn2","AR6400",1)
+	Global("WGclericExists","AR6400",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WGclericExists","AR6400",1)
+	CreateCreature("WGcleric",[2285.382],0)
+END

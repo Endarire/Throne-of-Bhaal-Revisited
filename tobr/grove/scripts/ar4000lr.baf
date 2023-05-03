@@ -1,0 +1,9 @@
+IF 
+	Global("LRinstalled", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+	SetGlobal("TalkedEllesime","GLOBAL",100)
+END
+
+
+

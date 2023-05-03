@@ -1,0 +1,9 @@
+IF
+  See([ENEMY])
+  General(LastSeenBy(),UNDEAD)
+THEN
+	RESPONSE #100
+	  CreateVisualEffectObject("SPHOLY",LastSeenBy())  
+	  PlaySound("EFF_M10")
+	  ActionOverride(LastSeenBy(),DestroySelf())
+END

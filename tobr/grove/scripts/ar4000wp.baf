@@ -1,0 +1,15 @@
+IF
+	Global("HeadsSpoke","AR4000",0)
+	Global("SuelleBegin","AR4000",4)
+THEN
+	RESPONSE #100
+	SetGlobal("SuelleBegin","AR4000",6)
+END
+
+IF 
+	Global("HeadsSpoke","AR4000",1)
+	Global("SuelleBegin","AR4000",6)
+THEN
+	RESPONSE #100
+	SetGlobal("SuelleBegin","AR4000",4)
+END

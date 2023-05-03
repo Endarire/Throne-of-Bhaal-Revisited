@@ -1,0 +1,51 @@
+IF
+	HPPercentLT(Myself,100)
+	Global("DisurFight","AR5203",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("DisurFight","AR5203",1)
+	ChangeEnemyAlly(Myself,NEUTRAL)
+	Dialogue([PC])
+END
+
+IF 
+	Global("YagaDeal","GLOBAL",0)
+	Global("ChangeDisur","AR5203",0)
+THEN
+	RESPONSE #100
+	SetGlobal("ChangeDisur","AR5203",1)
+	ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	Range([PC],30)
+	Global("DiggersTalk","AR5203",2)
+THEN
+	RESPONSE #100
+	SetGlobal("DiggersTalk","AR5203",3)
+	StartDialogueNoSet([PC])
+END
+
+IF
+	Global("SneakDisur","AR5203",1)
+THEN
+	RESPONSE #100
+	SetGlobal("SneakDisur","AR5203",3)
+	StartDialogueNoSet([PC])
+END
+
+IF
+	Global("SneakDisur","AR5203",2)
+THEN
+	RESPONSE #100
+	SetGlobal("SneakDisur","AR5203",4)
+	StartDialogueNoSet([PC])
+END
+
+IF
+	Global("TrickDisur","AR5203",1)
+THEN
+	RESPONSE #100
+	SetGlobal("TrickDisur","AR5203",2)
+	StartDialogueNoSet([PC])
+END

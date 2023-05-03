@@ -1,0 +1,8 @@
+IF
+	Allegiance(Myself,NEUTRAL)
+	See([ENEMY])
+THEN
+	RESPONSE #100
+	DisplayStringHead(Myself,~Yaga Shura says hold!~)
+	ActionOverride(LastSeenBy(),ChangeEnemyAlly(Myself,NEUTRAL))
+END

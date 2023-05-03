@@ -1,0 +1,8 @@
+IF
+	Global("WGsfight","AR5015",2)
+THEN	
+	RESPONSE #100
+	Enemy()
+	Attack(NearestEnemyOf())
+END
+

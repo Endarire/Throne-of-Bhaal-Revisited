@@ -1,0 +1,6 @@
+IF 
+	Global("SeenOasis","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("SeenOasis","GLOBAL",1)
+END

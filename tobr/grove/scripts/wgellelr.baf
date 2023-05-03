@@ -1,0 +1,22 @@
+IF 
+	Global("LRinstalled","AR4000",1)
+THEN
+	RESPONSE #100
+		SetGlobal("LRinstalled","AR4000",2)
+		SetGlobal("TalkedEllesime","GLOBAL",0)
+		MoveToPoint([363.433])
+		Face(9)
+		Wait(2)
+		DisplayStringHead(Myself,~Wait!~)
+		MoveToPoint([400.459])
+		Dialogue([PC])
+
+END
+
+IF
+	Global("TalkedEllesime","GLOBAL",2)
+THEN
+	RESPONSE #100
+	Dialogue([PC])
+END
+

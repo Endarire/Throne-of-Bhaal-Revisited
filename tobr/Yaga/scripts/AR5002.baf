@@ -1,0 +1,8 @@
+IF
+	Global("WGgdeal","GLOBAL",1)
+	Dead("GROMNIR")
+THEN
+	RESPONSE #100
+	SetGlobal("WGgdeal","GLOBAL",2)
+END
+

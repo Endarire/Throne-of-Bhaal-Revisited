@@ -1,0 +1,10 @@
+IF
+	RealGlobalTimerExpired("WGfire","AR5203")
+THEN
+	RESPONSE #100
+	RealSetGlobalTimer("WGfire","AR5203",10)
+	DisplayStringHead(Myself,~Fire!~)
+	Wait(2)
+	CreateVisualEffect("SPFIREPI",[1707.661])
+	CreateVisualEffect("SPFIREPI",[964.576])
+END

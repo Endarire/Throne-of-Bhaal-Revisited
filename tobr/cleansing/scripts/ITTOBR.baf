@@ -1,0 +1,55 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+//	Global("WGClericQuest","GLOBAL",1)
+	PartyHasItem("WGHOLY")
+THEN
+	RESPONSE #100
+		SetGlobal("WGClericQuest","GLOBAL",2)
+		CreateCreature("WGdestru",[914.926],0)
+		CreateCreature("WGdestru",[301.1000],0)
+		CreateCreature("WGdestru",[1629.749],0)
+		TakePartyItem("WGholy")
+        DestroyItem("WGholy")
+		CreateVisualEffect("FIRECOLD",[875.875])
+		DisplayStringHead(Myself,~You use the bottle on the altar.~) 
+END
+
+/*
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	Global("WGClericQuest","GLOBAL",0)
+	PartyHasItem("WGHOLY")
+THEN
+	RESPONSE #100
+		CreateCreature("WGdestru",[914.926],0)
+		CreateCreature("WGdestru",[301.1000],0)
+		CreateCreature("WGdestru",[1629.749],0)
+		TakePartyItem("WGholy")
+        DestroyItem("WGholy")
+		CreateVisualEffect("FIRECOLD",[875.875])
+		DisplayStringHead(Myself,~You use the bottle on the altar.~) 
+END
+*/
+
+IF 
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	Global("WGClericQuest","GLOBAL",2)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,~The altar has been cleansed.  The undead will trouble this place no more.~)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	!PartyHasItem("WGHOLY")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,~Though crumbled, the altar maintains its aura of menace.~)
+END
+
+
+
